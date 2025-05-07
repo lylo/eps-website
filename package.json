@@ -1,0 +1,34 @@
+{
+  "name": "eps-static",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm-run-all clean build:css build:html",
+    "build:css": "mkdir -p _site/css && cross-env NODE_ENV=production postcss src/css/styles.css -o _site/css/styles.css",
+    "build:html": "cross-env ELEVENTY_ENV=production eleventy",
+    "clean": "rm -rf _site",
+    "dev": "npm-run-all clean --parallel dev:*",
+    "dev:css": "mkdir -p _site/css && postcss src/css/styles.css -o _site/css/styles.css --watch",
+    "dev:html": "cross-env ELEVENTY_ENV=development eleventy --serve --incremental",
+    "process-md": "node scripts/clean-markdown.js",
+    "start": "npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@tailwindcss/postcss": "^4.1.5",
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.21",
+    "cross-env": "^7.0.3",
+    "luxon": "^3.6.1",
+    "markdown-it": "^14.0.0",
+    "markdown-it-anchor": "^8.6.7",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^4.1.5"
+  }
+}

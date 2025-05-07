@@ -1,0 +1,72 @@
+<h1 id="edinburgh-photographic-society-website" tabindex="-1">Edinburgh Photographic Society Website</h1>
+<p>This is the website for Edinburgh Photographic Society built with <a href="https://www.11ty.dev/">11ty</a>, <a href="https://tailwindcss.com/">Tailwind CSS</a>, and <a href="https://decapcms.org/">Decap CMS</a> (previously known as Netlify CMS).</p>
+<h2 id="project-structure" tabindex="-1">Project Structure</h2>
+<pre><code>/
+├── _site/                  # Generated site output
+├── admin/                  # Decap CMS admin interface
+├── content/                # Processed markdown content from WP export
+├── images/                 # Static images
+├── scripts/                # Utility scripts
+├── src/                    # Source files
+│   ├── _data/              # Global data files
+│   ├── _includes/          # Templates and components
+│   │   ├── layouts/        # Page layouts
+│   │   ├── partials/       # Reusable components
+│   ├── assets/             # CSS and other assets
+├── wp/                     # Original WordPress markdown exports
+</code></pre>
+<h2 id="development" tabindex="-1">Development</h2>
+<h3 id="prerequisites" tabindex="-1">Prerequisites</h3>
+<ul>
+<li>Node.js (v16 or higher)</li>
+<li>npm</li>
+</ul>
+<h3 id="getting-started" tabindex="-1">Getting Started</h3>
+<ol>
+<li>Clone the repository</li>
+<li>Install dependencies:</li>
+</ol>
+<pre><code class="language-bash">npm install
+</code></pre>
+<ol start="3">
+<li>Start the development server:</li>
+</ol>
+<pre><code class="language-bash">npm start
+</code></pre>
+<p>This will run the site at <a href="http://localhost:8080">http://localhost:8080</a> with live reloading.</p>
+<h3 id="processing-markdown-content" tabindex="-1">Processing Markdown Content</h3>
+<p>To process the WordPress markdown files and clean them up:</p>
+<pre><code class="language-bash">npm run process-md
+</code></pre>
+<p>This script:</p>
+<ul>
+<li>Removes navigation elements</li>
+<li>Removes cookie notices</li>
+<li>Adds proper frontmatter</li>
+<li>Outputs to the <code>/content</code> directory</li>
+</ul>
+<h2 id="building-for-production" tabindex="-1">Building for Production</h2>
+<p>To build the site for production:</p>
+<pre><code class="language-bash">npm run build
+</code></pre>
+<p>This generates the static site in the <code>_site</code> directory.</p>
+<h2 id="deploying-to-netlify" tabindex="-1">Deploying to Netlify</h2>
+<p>This site is configured to be deployed to Netlify. The <code>netlify.toml</code> file contains the configuration for the build process.</p>
+<h3 id="setting-up-netlify-cms" tabindex="-1">Setting up Netlify CMS</h3>
+<ol>
+<li>Deploy the site to Netlify</li>
+<li>Enable Netlify Identity</li>
+<li>Enable Git Gateway</li>
+<li>Invite users to the CMS</li>
+</ol>
+<p>The CMS will be available at <code>/admin/</code>.</p>
+<h2 id="features" tabindex="-1">Features</h2>
+<ul>
+<li><strong>Responsive design</strong> using Tailwind CSS</li>
+<li><strong>Content management</strong> with Decap CMS</li>
+<li><strong>Fast build times</strong> with 11ty</li>
+<li><strong>Optimized images</strong> for better performance</li>
+<li><strong>Clean, organized templates</strong> for maintainability</li>
+</ul>
+<h2 id="license" tabindex="-1">License</h2>
+<p>Copyright © Edinburgh Photographic Society</p>

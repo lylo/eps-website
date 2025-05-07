@@ -1,0 +1,58 @@
+<nav class="container mx-auto px-4 py-4">
+    <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="flex items-center mb-4 md:mb-0">
+            <a href="/" class="text-xl font-bold text-gray-800">Edinburgh Photographic Society</a>
+        </div>
+
+        <div class="hidden md:flex">
+            <ul class="flex space-x-6 text-gray-700">
+                {% for item in navigation.main %}
+                <li class="{% if item.children %}group relative{% endif %}">
+                    <a href="{{ item.url }}" class="hover:text-blue-800 transition-colors">{{ item.title }}</a>
+                    {% if item.children %}
+                    <ul class="absolute hidden group-hover:block bg-white shadow-md py-2 mt-1 min-w-40 z-10">
+                        {% for child in item.children %}
+                        <li><a href="{{ child.url }}" class="block px-4 py-2 hover:bg-gray-100">{{ child.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <!-- Mobile menu button -->
+        <div class="md:hidden flex items-center">
+            <button id="mobile-menu-button" class="text-gray-500 hover:text-gray-800 focus:outline-none">
+                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
+        <ul class="space-y-2">
+            {% for item in navigation.main %}
+            <li>
+                <a href="{{ item.url }}" class="block text-gray-700 hover:text-blue-800">{{ item.title }}</a>
+                {% if item.children %}
+                <ul class="ml-4 mt-2 space-y-2">
+                    {% for child in item.children %}
+                    <li><a href="{{ child.url }}" class="block text-gray-600 hover:text-blue-800">{{ child.title }}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</nav>
+
+<script>
+    document.getElementById('mobile-menu-button').addEventListener('click', function() {
+        const menu = document.getElementById('mobile-menu');
+        menu.classList.toggle('hidden');
+    });
+</script>
