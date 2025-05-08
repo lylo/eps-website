@@ -1,6 +1,8 @@
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const csvParse = require("csv-parse/sync").parse;
+const fs = require("fs");
 
 module.exports = function(eleventyConfig) {
   // Add passthrough copy for assets
@@ -38,6 +40,14 @@ module.exports = function(eleventyConfig) {
     if (!content) return null;
     const match = content.match(/<img[^>]+src="([^">]+)"/);
     return match ? match[1] : null;
+  });
+
+  // Add CSV support
+  eleventyConfig.addDataExtension("csv", contents => {
+    return csvParse(contents, {
+      columns: true,
+      skip_empty_lines: true
+    });
   });
 
   return {

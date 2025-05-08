@@ -1,0 +1,28 @@
+<div class="not-prose border rounded border-gray-200 divide-y divide-gray-200">
+  {%- set sortedMembers = memberWebsites | sort(false, false, "surname") -%}
+  {%- for member in sortedMembers -%}
+  <div class="flex flex-col sm:flex-row">
+    <div class="w-64 p-2 flex-shrink-0 sm:border-r sm:border-r-gray-200">
+      <h3 class="font-semibold">
+        <a href="{{ member.url }}" target="_blank" class="hover:underline">
+          {{ member.firstname }} {{ member.surname }}
+        </a>
+      </h3>
+    </div>
+    <div class="flex-grow p-2 text-sm text-gray-700">
+      {%- if member.description -%}
+      <p>{{ member.description }}</p>
+      <p class="mt-2">
+        <a href="{{ member.url }}" target="_blank" class="font-medium text-blue-800 hover:underline">
+          {{ member.url }}
+        </a>
+        {%- if member.secondaryUrl -%}
+        <br>
+          <a href="{{ member.secondaryUrl }}" target="_blank" class="font-medium text-blue-800 hover:underline">{{ member.secondaryUrl }}</a>
+        {%- endif -%}
+      </p>
+      {%- endif -%}
+    </div>
+  </div>
+  {%- endfor -%}
+</div>
