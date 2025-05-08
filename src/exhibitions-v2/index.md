@@ -14,7 +14,7 @@ The prestigious Edinburgh International Print Exhibition has been held annually 
 
 You can view the catalogues for previous exhibitions by clicking on the images below.
 
-[![](images/Catalogue-2017-exhibitions-v2.jpg)](https://www.dropbox.com/scl/fi/n5inllbw74lhj9828nibv/Catalogue-2017.pdf?rlkey=mxeq9ut2ofp1fv2xr8tmoxv83&dl=0)
+[![](/assets/images/Catalogue-2017-exhibitions-v2.jpg)](https://www.dropbox.com/scl/fi/n5inllbw74lhj9828nibv/Catalogue-2017.pdf?rlkey=mxeq9ut2ofp1fv2xr8tmoxv83&dl=0)
 
 [![](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)](https://www.dropbox.com/scl/fi/hn552es0vbyfoiues3sm7/Catalogue-2018.pdf?rlkey=8xxsabqnawr4lv0ch17qt0djv&dl=0)
 
@@ -30,15 +30,15 @@ As well as the international exhibitions we organise two members’ exhibitions 
 
 We also regularly display guest exhibitions in our premises. These and are mostly for EPS members but may be open to the public.&nbsp; Examples of guest exhibitions include exhibitions of work by EPS photographers or exhibitions from photographic organisations such as the Royal Photographic Society.&nbsp; See the [EPS Facebook page](https://www.facebook.com/EdinburghPhotographicSociety/) for news of guest exhibitions.
 
-## [International Print Exhibition](/international-ex-entries/)
+## [International Print Exhibition](/international-ex-entries-v2/)
 
 Information for entrants for the 161st Edinburgh International Exhibition 2025.
 
-## [International Digital Salon](/international-pdi-entries/)
+## [International Digital Salon](/international-pdi-entries-v2/)
 
 Information about entering the latest Edinburgh Digital Salon.
 
-## [Members' Exhibitions](/members-exhibitions/)
+## [Members' Exhibitions](/members-exhibitions-v2/)
 
 Details of our annual members’ exhibitions.
 

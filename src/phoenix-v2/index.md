@@ -29,11 +29,11 @@ A short YouTube video introducing the Phoenix Group.
 
 A short YouTube video introducing photographic distinctions awarded by bodies such as the Royal Photographic Society.
 
-## [Distinctions websites](/photographic-distinctions/)
+## [Distinctions websites](/photographic-distinctions-v2/)
 
 A list of awarding bodies who grant photographic distinctions.
 
-## 
+##
 
 &nbsp;&nbsp;
 

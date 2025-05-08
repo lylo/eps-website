@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 /* Load Inter font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
@@ -9,10 +10,11 @@
   --header-bg: theme('colors.gray.50');
   --nav-text: theme('colors.blue.800');
   --nav-hover: theme('colors.blue.600');
-  --card-bg: theme('colors.white');
+  --card-bg: theme('colors.gray.50');
   --card-border: theme('colors.gray.200');
-  --card-heading: theme('colors.blue.800');
+  --card-heading: theme('colors.gray.900');
   --card-text: theme('colors.gray.800');
+  --heading-color: theme('colors.gray.900');
   --btn-bg: theme('colors.blue.800');
   --btn-hover: theme('colors.blue.600');
   --btn-text: theme('colors.white');
@@ -26,8 +28,9 @@
     --nav-hover: theme('colors.blue.400');
     --card-bg: theme('colors.slate.700');
     --card-border: theme('colors.slate.600');
-    --card-heading: theme('colors.slate.200');
+    --card-heading: theme('colors.blue.200');
     --card-text: theme('colors.slate.300');
+    --heading-color: theme('colors.blue.200');
     --btn-bg: theme('colors.blue.600');
     --btn-hover: theme('colors.blue.500');
     --btn-text: theme('colors.white');
@@ -56,6 +59,11 @@
   color: var(--card-heading);
 }
 
+.feature-card a {
+  color: var(--card-heading);
+  @apply font-medium;
+}
+
 .feature-card p {
   color: var(--card-text);
 }
@@ -73,6 +81,14 @@
 
 .site-nav a:hover {
   color: var(--nav-hover);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+}
+
+footer h1, h2, h3, h4, h5, h6 {
+  @apply text-white
 }
 
 .photo-grid {
@@ -99,5 +115,3 @@
 .page-container {
   @apply max-w-7xl mx-auto px-4;
 }
-
-/* Any legacy styles can be added below this line */

@@ -23,7 +23,7 @@ description: Edinburgh Photographic Society - Find out about our 150+ year histo
     <h2 class="text-2xl font-bold mt-8 mb-2"><a href="/facilities/">Premises and facilities</a></h2>
     <p class="mb-6">We have superb facilities for members including studios and darkroom. Find out more here.</p>
 
-    <h2 class="text-2xl font-bold mt-8 mb-2"><a href="/history/">History</a></h2>
+    <h2 class="text-2xl font-bold mt-8 mb-2"><a href="/history-v2/">History</a></h2>
     <p class="mb-6">Founded in 1861, we have a long history. Lots of historical information here.</p>
 
     <p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

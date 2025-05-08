@@ -4,12 +4,12 @@
   "main": "index.js",
   "scripts": {
     "build": "npm-run-all clean build:css build:html",
-    "build:css": "mkdir -p _site/css && cross-env NODE_ENV=production postcss src/css/styles.css -o _site/css/styles.css",
+    "build:css": "mkdir -p _site/assets/styles && cross-env NODE_ENV=production postcss src/assets/styles/styles.css -o _site/assets/styles/styles.css",
     "build:html": "cross-env ELEVENTY_ENV=production eleventy",
     "clean": "rm -rf _site",
     "dev": "npm-run-all clean --parallel dev:*",
-    "dev:css": "mkdir -p _site/css && postcss src/css/styles.css -o _site/css/styles.css --watch",
-    "dev:html": "cross-env ELEVENTY_ENV=development eleventy --serve --incremental",
+    "dev:css": "mkdir -p _site/assets/styles && postcss src/assets/styles/styles.css -o _site/assets/styles/styles.css --watch",
+    "dev:html": "cross-env ELEVENTY_ENV=development eleventy --serve --incremental --watch",
     "process-md": "node scripts/clean-markdown.js",
     "start": "npm run dev"
   },

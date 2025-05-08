@@ -16,15 +16,15 @@ Formally, we have three groups – the CD group, the Nature group and the Phoeni
 
 For members who are interested in experimenting and creating original images in any photographic genre.&nbsp;
 
-## [Nature group](/nature-group/)
+## [Nature group](/nature-group-v2/)
 
 For members interested in all types of nature photography – birds, animals, flowers, etc.
 
-## [Phoenix group](/phoenix/)
+## [Phoenix group](/phoenix-v2/)
 
 For members who are interested in producing a body of photographic work such as a panel or a photobook.
 
-## [Photobook group](/photobooks/)
+## [Photobook group](/photobooks-v2/)
 
 For members who are interested in making and enjoying photobooks.
 

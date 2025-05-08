@@ -6,8 +6,19 @@ module.exports = function(eleventyConfig) {
   // Add passthrough copy for assets
   eleventyConfig.addPassthroughCopy("./src/assets/images");
   eleventyConfig.addPassthroughCopy("./src/assets/styles");
-  eleventyConfig.addPassthroughCopy("./src/css");
-  eleventyConfig.addPassthroughCopy("./admin");
+
+  // Watch CSS files for changes
+  eleventyConfig.addWatchTarget("./src/assets/styles/");
+  eleventyConfig.addWatchTarget("./_site/assets/styles/");
+
+  // Browser Sync config - add parameters to fix live reload
+  eleventyConfig.setBrowserSyncConfig({
+    files: './_site/assets/styles/styles.css',
+    open: true,
+    ghostMode: false,
+    ui: false,
+    notify: true
+  });
 
   // Date formatting filter
   eleventyConfig.addFilter("formatDate", (dateObj) => {

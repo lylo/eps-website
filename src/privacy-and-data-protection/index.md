@@ -1,5 +1,5 @@
 ---
-layout: basic-page.njk
+layout: page.njk
 title: "Privacy and Data Protection"
 description: "Edinburgh Photographic Society - Privacy and Data Protection Policy"
 ---
