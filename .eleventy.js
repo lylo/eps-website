@@ -1,6 +1,6 @@
-const csvParse = require("csv-parse/sync").parse;
+import { parse as csvParse } from "csv-parse/sync";
 
-module.exports = function(eleventyConfig) {
+export default function(eleventyConfig) {
   // Add passthrough copy for assets
   eleventyConfig.addPassthroughCopy("./src/assets/images");
   eleventyConfig.addPassthroughCopy("./src/assets/styles");
