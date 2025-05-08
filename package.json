@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm-run-all clean build:css build:html",
-    "build:css": "npx @tailwindcss/cli -i ./src/assets/styles/styles.css -o ./_site/assets/styles/styles.css --minify",
+    "build:css": "npx @tailwindcss/cli -i ./src/assets/styles/styles.css -o ./_site/assets/styles/styles.css",
     "build:html": "cross-env ELEVENTY_ENV=production eleventy",
     "clean": "rm -rf _site",
     "dev": "npm-run-all clean --parallel dev:*",
