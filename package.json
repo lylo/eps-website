@@ -8,7 +8,7 @@
     "build:html": "cross-env ELEVENTY_ENV=production eleventy",
     "clean": "rm -rf _site",
     "dev": "npm-run-all clean --parallel dev:*",
-    "dev:css": "mkdir -p _site/assets/styles && postcss src/assets/styles/styles.css -o _site/assets/styles/styles.css --watch",
+    "dev:css": "tailwindcss -i ./src/assets/styles/styles.css -o ./_site/assets/styles/styles.css --watch",
     "dev:html": "cross-env ELEVENTY_ENV=development eleventy --serve --incremental --watch",
     "process-md": "node scripts/clean-markdown.js",
     "start": "npm run dev"
