@@ -4,12 +4,12 @@
   "main": "index.js",
   "scripts": {
     "build": "npm-run-all clean build:css build:html",
-    "build:css": "NODE_ENV=production npx @tailwindcss/cli -i ./src/assets/styles/styles.css -o ./_site/assets/styles/styles.css",
-    "build:html": "cross-env ELEVENTY_ENV=production eleventy",
+    "build:css": "npx @tailwindcss/cli -i ./src/assets/styles/styles.css -o ./_site/assets/styles/styles.css",
+    "build:html": "ELEVENTY_ENV=production npx eleventy",
     "clean": "rm -rf _site",
     "dev": "npm-run-all clean --parallel dev:*",
     "dev:css": "npx @tailwindcss/cli -i ./src/assets/styles/styles.css -o ./_site/assets/styles/styles.css --watch",
-    "dev:html": "cross-env ELEVENTY_ENV=development eleventy --serve --incremental --watch",
+    "dev:html": "ELEVENTY_ENV=development npx eleventy --serve --incremental --watch",
     "start": "npm run dev"
   },
   "keywords": [],
@@ -19,17 +19,11 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@tailwindcss/cli": "^4.1.5",
-    "cross-env": "^7.0.3",
+    "@tailwindcss/typography": "^0.5.10",
     "csv-parse": "^5.6.0",
-    "glob": "^11.0.2",
-    "luxon": "^3.6.1",
-    "markdown-it": "^14.0.0",
-    "markdown-it-anchor": "^8.6.7",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "tailwindcss": "^4.1.5"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.10",
-    "gray-matter": "^4.0.3",
-    "tailwindcss": "^4.1.5"
   }
 }
