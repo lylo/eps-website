@@ -1,34 +1,22 @@
 ---
-layout: base.njk
-title: ANNUAL MEMBERS’ EXHIBITION
-description: Edinburgh Photographic Society - ANNUAL MEMBERS’ EXHIBITION
+title: ANNUAL MEMBERS' EXHIBITION
+description: Edinburgh Photographic Society - ANNUAL MEMBERS' EXHIBITION
+date: 2016-03-17
+tags:
+  - exhibitions
 ---
 
-<div class="container mx-auto px-4 py-8">
-  <div class="prose max-w-3xl mx-auto">
-    <h1 class="text-3xl font-bold mb-6">ANNUAL MEMBERS’ EXHIBITION</h1>
-
-    - Post author:[Neil Scott](/author/neilscott/ "Posts by Neil Scott")
-- Post published:03/17/2016
-- Post category:[Exhibitions](/category/events/eps_exhibitions/)
+# ANNUAL MEMBERS' EXHIBITION
 
 ![members poster A3](images/members-poster-A3.jpg)
 
-The Members’ Night of the exhibition on Friday 15 April brought around 50 members and guests to the Society.&nbsp; The trophies were presented to winners by Stephen Meek, President.&nbsp; On Saturday/Sunday 16/17 April the exhibition was open to the public but we had a mere 50 or so visitors.&nbsp; One of these was Doug Corrance who gave a talk to the Society on 20 January.&nbsp; He spent some time talking to those of us on the door, and took this photo – Neil Scott and Chick Calder at the table with Richard Bingham on the steps, all supervised by David Octavius Hill
+The Members' Night of the exhibition on Friday 15 April brought around 50 members and guests to the Society. The trophies were presented to winners by Stephen Meek, President. On Saturday/Sunday 16/17 April the exhibition was open to the public but we had a mere 50 or so visitors. One of these was Doug Corrance who gave a talk to the Society on 20 January. He spent some time talking to those of us on the door, and took this photo – Neil Scott and Chick Calder at the table with Richard Bingham on the steps, all supervised by David Octavius Hill
 
-&nbsp;
-
-![doorkeepers](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)
+![doorkeepers](images/doorkeepers.jpg)
 
 In retaliation, Neil took this image of Doug!
 
-![doug corrance04 strap](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
+![doug corrance04 strap](images/doug-corrance04-strap.jpg)
 
 The winners were
 
@@ -37,10 +25,10 @@ The winners were
 | EPC Memorial Shield | Doug Berndt | Domain of the Bald Eagle | Best Overall |
 | Forbes Adam Cup | Jean Manson | Red Fox no 2 | Best L1 |
 | Dunbar Trophy | Eric Robinson | The Red Dress | Best L2 |
-| Centenary Cup | David Wolfenden | Scottish Wildlife-Birds | Panel&nbsp; L 1 |
-| President’s Trophy | James Glass | Iceland no 3 | Panel&nbsp; L 2 |
+| Centenary Cup | David Wolfenden | Scottish Wildlife-Birds | Panel L1 |
+| President's Trophy | James Glass | Iceland no 3 | Panel L2 |
 | Edinburgh Cameras Cup | Richard Felton-Edkins | Silent YEarning | Creativity L1 |
-| Sean Casey Medal | Graham Morrice | Flowery Meadow&nbsp; & Blue Sky | Creativity L2 |
+| Sean Casey Medal | Graham Morrice | Flowery Meadow & Blue Sky | Creativity L2 |
 | John Robb Medal | Jan Jerome | Norwegian Dawn no 1 | Landscape |
 | Jim McDougal Trophy | Neil Bain | Lean into the Corner | Sports |
 | Rosemary Davidson Salver | David Wolfenden | Short-Eared Owl Hunting | Natural History |
@@ -53,9 +41,6 @@ The winners were
 | Butler Cup | Charles Keddie | Sepia Tones | Panel L2 |
 | Spectrum Award | Doug Berndt | Charlie and Bette Selfie | Creativity L1 |
 | TCM Bradley | Jennifer Porteous | Falling Leaf | Creativity L2 |
-| | | | |
-
-&nbsp;
 
 **HONOURABLE MENTION CERTIFICATES**
 
@@ -74,23 +59,21 @@ The winners were
 | | | Jean Manson | Red Fox no 4 |
 | | | Jan Jerome | A Place of Safety no 1 |
 
-### Members receive their trophies and certificates from President Stephen Meek at the Members’ Night on 15 April
+### Members receive their trophies and certificates from President Stephen Meek at the Members' Night on 15 April
 
 [justified\_image\_grid ng\_gallery=4]
-
-&nbsp;
 
 ### _Related_
 
 ### You Might Also Like
 
-### [LATEST FROM THE MEMBERS’ EXHIBITION](/events/eps_exhibitions/latest-from-the-members-exhibition/)
+### [LATEST FROM THE MEMBERS' EXHIBITION](/events/eps_exhibitions/latest-from-the-members-exhibition/)
 02/23/2014
 
 ### [Last week of the Print exhibition in the Fine Art Library](/events/eps_exhibitions/last-week-of-the-print-exhibition-in-the-fine-arts-library/)
 11/25/2013
 
-### [MEMBERS’ EXHIBITION – another addendum!](/events/eps_exhibitions/members-exhibition/)
+### [MEMBERS' EXHIBITION – another addendum!](/events/eps_exhibitions/members-exhibition/)
 01/06/2014
 
 #### Recent News
@@ -104,12 +87,4 @@ CategoriesSelect CategoryEPS eventsEPS InformationExhibitionsGeneral Announcemen
 
 **Follow us on [Facebook](https://www.facebook.com/EdinburghPhotographicSociety/) and [Instagram](https://www.instagram.com/edinburghphotographicsociety) for frequent updates**!
 
- Copyright 2025 - Edinburgh Photographic society and individual photographers 
-
-We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept All”, you consent to the use of ALL the cookies. However, you may visit "Cookie Settings" to provide a controlled consent.
-
-Cookie SettingsAccept All
-
-    <p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>
-  </div>
-</div>
+<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

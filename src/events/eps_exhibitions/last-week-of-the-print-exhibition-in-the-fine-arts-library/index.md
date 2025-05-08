@@ -44,7 +44,7 @@ CategoriesSelect CategoryEPS eventsEPS InformationExhibitionsGeneral Announcemen
 
 **Follow us on [Facebook](https://www.facebook.com/EdinburghPhotographicSociety/) and [Instagram](https://www.instagram.com/edinburghphotographicsociety) for frequent updates**!
 
- Copyright 2025 - Edinburgh Photographic society and individual photographers 
+ Copyright 2025 - Edinburgh Photographic society and individual photographers
 
 We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept All”, you consent to the use of ALL the cookies. However, you may visit "Cookie Settings" to provide a controlled consent.
 
