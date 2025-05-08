@@ -32,4 +32,3 @@ Bird welfare is the most important factor when we assess any [licence applicatio
 
 [Links for information on other subjects.](https://www.nature.scot/professional-advice/protected-areas-and-species/licensing/species-licensing-z-guide)
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

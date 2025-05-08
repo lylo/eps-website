@@ -30,4 +30,3 @@ The _An Iolair_ cup is awarded annually within the Nature Group for the best set
 
 The Scottish Photographic Federation's rules and guidelines for nature photography competitions.
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

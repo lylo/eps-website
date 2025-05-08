@@ -24,4 +24,3 @@ For exhibitions, we have a wall hanging system for around 200 50×40 cm prints a
 
 68 Great King Street is a short downhill walk from Princes Street. There are several bus routes (8, 23, 27) that serve Dundas Street, which is a 3 or 4 minute walk from our premises. Car parking around Great King Street is paid parking during the day but free in the evening. However, it is often difficult to find a space.
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

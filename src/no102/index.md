@@ -12,6 +12,6 @@ description: Edinburgh Photographic Society - Page not found
 
 All new website pages are linked from our home page.&nbsp;
 
-    <p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>
+
   </div>
 </div>

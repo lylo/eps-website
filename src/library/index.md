@@ -22,4 +22,3 @@ Our full collection of books is listed in our [library catalogue](https://www.dr
 
 Ian Sommerville
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

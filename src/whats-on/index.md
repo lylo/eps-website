@@ -33,4 +33,3 @@ You may also subscribe to our Google Calendar or download the syllabus in ics fo
 
 [Download EPS Programme as a csv file](https://www.dropbox.com/scl/fi/onh2pbcxxh8xa2qqadrsy/EPS-calendar-2024-25.csv?rlkey=2a5byun62zgz15vsfk4krohcu&dl=1).
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

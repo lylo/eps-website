@@ -57,7 +57,7 @@ function processMarkdownFile(filepath) {
 
     ${sectionContent}
 
-    <p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>
+
   </div>
 </div>`;
   } else {

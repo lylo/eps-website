@@ -34,4 +34,3 @@ Douglas J May FRPS and Sandy Cleland FRPS
 
 Edinburgh Photographic Society 2024
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

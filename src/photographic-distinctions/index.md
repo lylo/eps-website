@@ -14,4 +14,3 @@ description: Edinburgh Photographic Society - Awarding bodies for photographic d
 | British Photographic Exhibitions (BPE) | [http://www.britishphotographicexhibitions.org.uk/index.php/awards](http://www.britishphotographicexhibitions.org.uk/index.php/awards) |
 | Photographic Society of America (PSA) | [https://psa-photo.org/page/mo-star-ratings](https://psa-photo.org/page/mo-star-ratings) |
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

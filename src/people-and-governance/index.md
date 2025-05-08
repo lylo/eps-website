@@ -46,4 +46,3 @@ Sam Fraser
 
 You can see photos of who is on the Council on our [key EPS members](/people/) page.
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

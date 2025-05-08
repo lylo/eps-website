@@ -50,4 +50,3 @@ Annual membership fees for the 2025/26 session are £115 for Ordinary (Edinburgh
 
 If you have any questions or would like more information, please [contact the Membership Secretary](mailto:membership@edinburghphotographicsociety.co.uk).
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

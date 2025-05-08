@@ -78,4 +78,3 @@ Recently retired transport consultant with a keen interest in transport photogra
 
 **Douglas Vernimmen** ([https://www.douglasvernimmen.com](https://www.douglasvernimmen.com), [https://instagram.com/oxford\_through\_the\_lens](https://instagram.com/oxford_through_the_lens))
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

@@ -40,4 +40,3 @@ Information about entering the latest Edinburgh Digital Salon.
 
 Details of our annual members' exhibitions.
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

@@ -94,4 +94,3 @@ Initial experience with DALL-E (David Stevenson)
 
 Experiments where I asked Firefly to generate images similiar to ones that I had taken. It didn't do very well. My conclusion is that it's best if you can be specific and the system has no knowledge of context.
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

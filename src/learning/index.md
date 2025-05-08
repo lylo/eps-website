@@ -20,4 +20,3 @@ Most photographers, however advanced they are, are interested in learning and de
 
 **Reading and viewing lists**, where members share a list of websites and videos on particular topics. This is a new venture that I hope can be made to work for session 2024-25. Currently, we have some suggested reading on [photography and artificial intelligence](/photography-and-ai).
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

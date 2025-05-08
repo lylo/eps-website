@@ -10,4 +10,3 @@ The Shortcuts menu is primarily aimed at regular website users who want to go di
 
 If you have suggestions for other pages that might be added to the shortcuts menu, please [send us an email](mailto:webby@edinburghphotographicsociety.co.uk) with the URL of the page that you regularly access.
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

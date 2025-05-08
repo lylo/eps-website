@@ -38,4 +38,3 @@ CategoriesSelect CategoryEPS eventsEPS InformationExhibitionsGeneral Announcemen
 
 **Follow us on [Facebook](https://www.facebook.com/EdinburghPhotographicSociety/) and [Instagram](https://www.instagram.com/edinburghphotographicsociety) for frequent updates**!
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

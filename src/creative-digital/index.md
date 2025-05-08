@@ -16,4 +16,3 @@ We have three competitions and they determine the winners of our trophies. The t
 
 [Isobel Lindsay](mailto:cd@edinburghphotographicsociety.co.uk) is the group secretary and Alistair Cowan is the competition secretary.
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

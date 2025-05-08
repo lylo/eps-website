@@ -56,6 +56,6 @@ We use cookies on our website to give you the most relevant experience by rememb
 
 Cookie SettingsAccept All
 
-    <p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>
+
   </div>
 </div>

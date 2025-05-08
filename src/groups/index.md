@@ -26,4 +26,3 @@ For members who are interested in producing a body of photographic work such as 
 
 For members who are interested in making and enjoying photobooks.
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

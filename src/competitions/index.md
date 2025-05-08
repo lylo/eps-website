@@ -26,6 +26,6 @@ In addition, EPS participates in Scottish national photographic events and in in
 
 [Print competition results](/competitions/competition-results/print-competition-results/) (2024-25)
 
-    <p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>
+
   </div>
 </div>

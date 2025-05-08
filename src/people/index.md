@@ -127,4 +127,3 @@ _Maureen Stewart_
 
 ![](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

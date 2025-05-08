@@ -20,4 +20,3 @@ David Ferguson, an EPS member, worked to recover part of Peter's site in 2023.
 
 Other historical documents.
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

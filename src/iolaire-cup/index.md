@@ -34,4 +34,3 @@ David Wolfenden
 
 2023 David Wolfenden
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

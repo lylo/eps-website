@@ -18,4 +18,3 @@ If you are interested in learning or teaching in the darkroom get in touch direc
 
 To book a darkroom session, you should use our [facilities booking system](https://www.edinburghphotographicsociety.co.uk/bookings/Web/?).
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

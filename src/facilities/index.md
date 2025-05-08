@@ -26,4 +26,3 @@ Our darkroom facilities for members interested in film photography.
 
 Information about our large library of photographic books and journals.
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

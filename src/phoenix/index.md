@@ -31,4 +31,3 @@ A short YouTube video introducing photographic distinctions awarded by bodies su
 
 A list of awarding bodies who grant photographic distinctions.
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

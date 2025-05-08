@@ -10,4 +10,3 @@ Edinburgh Photographic Society has a rich history, running one of the oldest Pri
 
 More information about the 2024 Digital Salon is available via the entry site here [https://eps.myphotoclub.com.au/](https://eps.myphotoclub.com.au/). Entries will open in August 2024.
 
-<p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>

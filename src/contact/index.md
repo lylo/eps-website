@@ -14,6 +14,6 @@ For all other queries, contact our general enquiries address ([enquiries@edinbur
 
 All our members are volunteers and have lives outside their email system. Please be patient if you don’t get an immediate response.
 
-    <p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>
+
   </div>
 </div>
