@@ -3,9 +3,6 @@ layout: page.njk
 title: Newsletters
 description: Edinburgh Photographic Society - Newsletters
 ---
-
-## Newsletters
-
 Each year, we publish two newsletters for members, edited by Maureen Stewart who always welcomes contributions from members. Newsletters include information about what's going on in the Society and contributed articles from members about their photography and interests.
 
 You can access recent newsletters from the links below. Older newsletters are now available in our [digital archive](/archive-intro/).
@@ -28,4 +25,3 @@ You can access recent newsletters from the links below. Older newsletters are no
 
 [October 2021](https://www.dropbox.com/scl/fi/3bc69hew7rbf30seur5np/2021-09-EPS-Bulletin-Summer-2021.pdf?rlkey=exqtacodcxgj8xw55xkz9slaj&dl=0)
 [February 2022](https://www.dropbox.com/scl/fi/0xeugkp214uii3u0ik1yn/2022-02-EPS-Bulletin-Winter-2021.pdf?rlkey=lryyjlqe1xyqzuhd0c7z2qc5u&dl=0)
-

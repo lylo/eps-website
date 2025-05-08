@@ -3,9 +3,6 @@ layout: page.njk
 title: History of the Edinburgh Photographic Society
 description: Edinburgh Photographic Society - History of the Edinburgh Photographic Society
 ---
-
-## History of the Edinburgh Photographic Society
-
 ![](images/Peter-Stubbs-Church-Hill-Edinburgh-18-Sep-2014-1-by-Doug-Berndt.jpeg)
 
 Peter Stubbs, Church Hill, Edinburgh. September 2014.

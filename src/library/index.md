@@ -3,9 +3,6 @@ layout: page.njk
 title: Library
 description: Edinburgh Photographic Society - Library
 ---
-
-## Library
-
 Our library, located on the first floor in Great King Street, has more than 1,300 photography books so there is something there for everyone, whatever their interests in photography. The earliest book we have was published in 1854. We regularly add new work to the collection and have a number of signed editions.
 
 The majority of books are housed in the cabinets in the library or on the tables but historical publications and some of the more fragile editions are shelved in the Secretary's office. Please contact the Librarian if you would like to look at them.
@@ -21,4 +18,3 @@ Our full collection of books is listed in our [library catalogue](https://www.dr
 ![Bookcase-library-V2](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== "Bookcase-library-V2")
 
 Ian Sommerville
-

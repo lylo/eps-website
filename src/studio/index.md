@@ -3,9 +3,6 @@ layout: page.njk
 title: Studio
 description: Edinburgh Photographic Society - Studio
 ---
-
-## Studio
-
 The main studio has a full track lighting system, and is suitable for portraiture and still-life photography. It is equipped with four Bowens Pro-Lite studio flash units, complete with brollies, snoot and other accessories.
 
 There is a changing room with lights and mirrors, and several props are available, along with the facility to use your own backing papers or other backgrounds. Various colours of backgroud paper are available.
@@ -29,4 +26,3 @@ Malkit Bening
 ![Studio model-Studio V2](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== "Studio model-Studio V2")
 
 Malkit Bening
-

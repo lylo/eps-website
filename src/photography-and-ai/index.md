@@ -3,9 +3,6 @@ layout: page.njk
 title: General articles on photography and AI
 description: Edinburgh Photographic Society - General articles on photography and AI
 ---
-
-## General articles on photography and AI
-
 [The human cost of artificial intelligence in photography](https://amateurphotographer.com/latest/photo-news/the-human-cost-of-ai-in-photography/) (Peter Dench, Amateur Photographer, December 2023)
 
 [How will AI Transform Photography](https://aperture.org/editorial/how-will-ai-transform-photography/) (Aperture, March 2023)
@@ -93,4 +90,3 @@ Initial experience with DALL-E (David Stevenson)
 [Playing with Adobe Firefly](https://iansommerville.com/opinions/playing-with-firefly/) (Ian Sommerville, September 2023)
 
 Experiments where I asked Firefly to generate images similiar to ones that I had taken. It didn't do very well. My conclusion is that it's best if you can be specific and the system has no knowledge of context.
-

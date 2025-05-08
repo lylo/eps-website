@@ -1,11 +1,10 @@
 ---
 layout: page.njk
 title: 161st Edinburgh International Photography Exhibition 2025
-description: Edinburgh Photographic Society - 161st Edinburgh International Photography Exhibition 2025
+description: >-
+  Edinburgh Photographic Society - 161st Edinburgh International Photography
+  Exhibition 2025
 ---
-
-## 161st Edinburgh International Photography Exhibition 2025
-
 The Edinburgh International is one of the most highly regarded photographic exhibitions in the UK, and one of the few Print only International Salons in the world. Our Exhibition attracts thousands of entries from all around the world.
 
 Our Exhibition has built a strong reputation since its inception in 1861, the year Edinburgh Photographic Society was formed.
@@ -23,4 +22,3 @@ Exhibition Secretary/Chair: Isobel Lindsay
 ![](images/images-2025-small.jpg)
 
 ![](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)
-

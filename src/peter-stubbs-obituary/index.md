@@ -3,9 +3,6 @@ layout: page.njk
 title: Peter Stubbs FRPS AFIAP (1945-2023)
 description: Edinburgh Photographic Society - Peter Stubbs FRPS AFIAP (1945-2023)
 ---
-
-## Peter Stubbs FRPS AFIAP (1945-2023)
-
 Peter Stubbs was awarded a Fellowship of the Royal Photographic Society in 2005 for a website which dealt with the history of the Edinburgh Photographic Society from its foundation in 1861 to 1999. As a member of the EPS for over thirty years he became the memory of the Society through his diligent research into its formation and its progress since its inception. For members, knowing the history of our Society informs us as to why we have a vibrant and successful Society with such an impressive clubroom.
 
 Peter was the person to turn to if questions arose in relation to the history of the Society. A book was written in which it was suggested that a professional photographer called Tunny, who was a member of the Society in the 19th Century, had murdered his wife with photographic chemicals and was the inspiration for Robert Louis Stevenson's novel Jekyll and Hyde.
@@ -33,4 +30,3 @@ His enthusiasm for history did not extend to using old fashioned plate cameras. 
 Douglas J May FRPS and Sandy Cleland FRPS
 
 Edinburgh Photographic Society 2024
-

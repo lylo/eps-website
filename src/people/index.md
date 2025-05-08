@@ -1,11 +1,8 @@
 ---
 layout: page.njk
-title: EPS Council and Office Bearers, 2024-25
-description: Edinburgh Photographic Society - EPS Council and Office Bearers, 2024-25
+title: 'EPS Council and Office Bearers, 2024-25'
+description: 'Edinburgh Photographic Society - EPS Council and Office Bearers, 2024-25'
 ---
-
-## EPS Council and Office Bearers, 2024-25
-
 ##### President
 
 ![](images/Muriel-Binnie.jpg)
@@ -126,4 +123,3 @@ _Maureen Stewart_
 ##### Other role
 
 ![](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)
-

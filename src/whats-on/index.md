@@ -3,9 +3,6 @@ layout: page.njk
 title: What's on
 description: Edinburgh Photographic Society - What's on
 ---
-
-## What's on
-
 Society meetings are held weekly throughout our session (September to April). During the summer, we have informally organised meetings and we normally take a break in August, when the International Print Exhibition is on display.
 
 Full meetings are held on Wednesday evenings at 7.30 and some meetings are streamed on Zoom.
@@ -32,4 +29,3 @@ You may also subscribe to our Google Calendar or download the syllabus in ics fo
 [Download EPS Programme in ics format](https://www.dropbox.com/scl/fi/xtr59tc0xxp4otwpvqzbf/Edinburgh-Photographic-Society-Calendar_2024-25-gmail.com.ics?rlkey=i5b36eey3elgaqkjxx0pv7fri&dl=1).
 
 [Download EPS Programme as a csv file](https://www.dropbox.com/scl/fi/onh2pbcxxh8xa2qqadrsy/EPS-calendar-2024-25.csv?rlkey=2a5byun62zgz15vsfk4krohcu&dl=1).
-

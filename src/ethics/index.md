@@ -3,9 +3,6 @@ layout: page.njk
 title: Ethics for Nature Photography
 description: Edinburgh Photographic Society - Ethics for Nature Photography
 ---
-
-## Ethics for Nature Photography
-
 The Edinburgh Photographic Society Nature Group firmly believe in the statement;
 
 "There is one hard and fast rule, whose spirit must be observed at all times. _The welfare of the subject is more important than the photograph._"
@@ -31,4 +28,3 @@ NatureScot issues a small number of licences each year to allow specific Schedul
 Bird welfare is the most important factor when we assess any [licence application](https://www.nature.scot/search?query=licences).
 
 [Links for information on other subjects.](https://www.nature.scot/professional-advice/protected-areas-and-species/licensing/species-licensing-z-guide)
-

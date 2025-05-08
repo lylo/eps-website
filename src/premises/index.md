@@ -3,9 +3,6 @@ layout: page.njk
 title: Our Premises
 description: Edinburgh Photographic Society - Our Premises
 ---
-
-## Our Premises
-
 Edinburgh Photographic Society is fortunate to have its own premises at 68 Great King Street in the heart of Edinburgh's New Town. The Society bought these premises in 1954, funded by its members.
 
 These building includes a large lecture hall, where most of our meetings are held, a large darkroom, a large studio, a second smaller studio, 2 exhibition rooms and a library, along with offices, kitchen and toilets.
@@ -23,4 +20,3 @@ For exhibitions, we have a wall hanging system for around 200 50×40 cm prints a
 ### Location
 
 68 Great King Street is a short downhill walk from Princes Street. There are several bus routes (8, 23, 27) that serve Dundas Street, which is a 3 or 4 minute walk from our premises. Car parking around Great King Street is paid parking during the day but free in the evening. However, it is often difficult to find a space.
-

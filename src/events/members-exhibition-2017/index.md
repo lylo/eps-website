@@ -3,9 +3,6 @@ layout: page.njk
 title: Members' Exhibition 2017
 description: Edinburgh Photographic Society - Members' Exhibition 2017
 ---
-
-## Members' Exhibition 2017
-
 - Post author:[admin](/author/admin/ "Posts by admin")
 - Post published:02/20/2017
 - Post category:[EPS events](/category/events/) / [Exhibitions](/category/events/eps_exhibitions/)
@@ -37,4 +34,3 @@ See [here](/members-exhibition/)for details on entering.
 CategoriesSelect CategoryEPS eventsEPS InformationExhibitionsGeneral AnnouncementUncategorized
 
 **Follow us on [Facebook](https://www.facebook.com/EdinburghPhotographicSociety/) and [Instagram](https://www.instagram.com/edinburghphotographicsociety) for frequent updates**!
-

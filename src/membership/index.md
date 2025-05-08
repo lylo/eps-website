@@ -3,9 +3,6 @@ layout: page.njk
 title: Membership
 description: Edinburgh Photographic Society - Membership
 ---
-
-## Membership
-
 We welcome new members at any time, whether you are based in the Edinburgh area or elsewhere. We are not just a group of experienced photographers – our members have a wide range of experience from beginners to professional photographers. It doesn't matter what kind of camera that you use – whether its your phone or one of the latest DSLRs. We offer [opportunities to everyone](/learning/) to improve their photography.
 
 If you join the Society, you can:
@@ -49,4 +46,3 @@ Annual membership fees for the 2025/26 session are £115 for Ordinary (Edinburgh
 [Join the society or renew your membership](https://webcollect.org.uk/eps), by visiting our safe and secure WebCollect portal. Please note there is no additional fee for our 2024/25 summer schedule if you join as a new member after 1st May 2025!
 
 If you have any questions or would like more information, please [contact the Membership Secretary](mailto:membership@edinburghphotographicsociety.co.uk).
-

@@ -3,9 +3,6 @@ layout: page.njk
 title: Photobook Group
 description: Edinburgh Photographic Society - Photobook Group
 ---
-
-## Photobook Group
-
 The Photobook Group is an informal group of individuals who have an interest in making, and enjoying, photobooks.
 
 We meet to discuss such topics as:
@@ -29,4 +26,3 @@ David Buchanan
 ![Keith Flemming-photobooks-v2](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== "Keith Flemming-photobooks-v2")
 
 Keith Flemming
-

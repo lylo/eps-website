@@ -3,9 +3,6 @@ layout: page.njk
 title: Phoenix Group
 description: Edinburgh Photographic Society - Phoenix Group
 ---
-
-## Phoenix Group
-
 The Phoenix Group is an informal discussion group acting as a forum for people who are keen to develop their photography in ways such as the following:
 
 - Creating a body of photographic work
@@ -30,4 +27,3 @@ A short YouTube video introducing photographic distinctions awarded by bodies su
 ## [Distinctions websites](/photographic-distinctions/)
 
 A list of awarding bodies who grant photographic distinctions.
-

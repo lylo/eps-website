@@ -3,9 +3,6 @@ layout: page.njk
 title: Governance
 description: Edinburgh Photographic Society - Governance
 ---
-
-## Governance
-
 Edinburgh Photographic Society is a Scottish Charitable Incorporated Organisation (SC017042), whose principal governing body is the Council, which meets regularly throughout the season. The Trustees, who are senior office-bearers on the EPS council, are responsible for financial management.
 
 The Council is composed of approximately 20 members who are elected at the annual general meeting. It meets approximately monthly throughout the season. The minutes of council meetings are available to members. If you don't have the link to these minutes, please contact the [EPS secretary](mailto:secretary@edinburghphotographicsociety.co.uk).
@@ -45,4 +42,3 @@ Derek Noble
 Sam Fraser
 
 You can see photos of who is on the Council on our [key EPS members](/people/) page.
-

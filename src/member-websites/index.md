@@ -3,9 +3,6 @@ layout: page.njk
 title: Member's websites
 description: Edinburgh Photographic Society - Member's websites
 ---
-
-## Member's websites
-
 Many members of the EPS maintain their own photography websites to display their work. The links below will take you to some of these sites.
 
 Edinburgh Photographic Society takes no responsibility for the content of member's websites and does not endorse any products or services offered by members through their personal sites.
@@ -77,4 +74,3 @@ Recently retired transport consultant with a keen interest in transport photogra
 **Duncan Thomson** ([https://thereluctantlaowai.smugmug.com](https://thereluctantlaowai.smugmug.com))
 
 **Douglas Vernimmen** ([https://www.douglasvernimmen.com](https://www.douglasvernimmen.com), [https://instagram.com/oxford\_through\_the\_lens](https://instagram.com/oxford_through_the_lens))
-

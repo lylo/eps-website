@@ -3,9 +3,6 @@ layout: page.njk
 title: Exhibitions
 description: Edinburgh Photographic Society - Exhibitions
 ---
-
-## Exhibitions
-
 Edinburgh Photographic Society organises international exhibitions of photography for prints and projected digital images and two annual members' exhibitions.
 
 The prestigious Edinburgh International Print Exhibition has been held annually since 1861. The Exhibition attracts entries from all over the world. The exhibition is on display in our Great King Street premises as part of the Edinburgh Fringe Festival each year. The 2025 exhibition, our 161st, is open to view at 68 Great King Street, Edinburgh, EH3 6QU from 2nd-24th August, 2025 (10:00-17:00). Entry is by fringe ticket **or** you may pay by card at the door. Your entrance fee includes a printed A4 full-colour catalogue of all accepted entries. Also on display will be two other exhibitions from Royal Photographic Society Members. Over 250 prints on display.
@@ -39,4 +36,3 @@ Information about entering the latest Edinburgh Digital Salon.
 ## [Members' Exhibitions](/members-exhibitions/)
 
 Details of our annual members' exhibitions.
-

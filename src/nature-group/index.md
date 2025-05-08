@@ -3,9 +3,6 @@ layout: page.njk
 title: Nature group
 description: Edinburgh Photographic Society - Nature group
 ---
-
-## Nature group
-
 Our thriving Nature Group has many experienced members and nature specialists. We share a passion not just for photography, but also for understanding the natural world. Any member of EPS may join the Nature Group and we welcome new members, whether experienced photographers or beginners.
 
 Our interests range from plants through the tiniest of creatures to the largest mammals and birds. We have experts both at home and abroad and our members provide unique insights into the natural world.
@@ -29,4 +26,3 @@ The _An Iolair_ cup is awarded annually within the Nature Group for the best set
 ## [Nature competitions](https://www.scottish-photographic-federation.org/competitions-guidance)
 
 The Scottish Photographic Federation's rules and guidelines for nature photography competitions.
-
