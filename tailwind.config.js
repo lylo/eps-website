@@ -5,6 +5,5 @@ module.exports = {
     "./index.md"
   ],
   plugins: [
-    require('@tailwindcss/typography')
   ]
 }
