@@ -10,7 +10,7 @@ description: Edinburgh Photographic Society - Founded in 1861, welcomes photogra
       <h1 class="text-4xl font-bold mb-4">Edinburgh Photographic Society</h1>
       <p class="text-xl">Founded in 1861, Edinburgh Photographic Society welcomes all who share an interest in photography – from the complete beginner to the most skilled photographer.</p>
       <div class="mt-6">
-        <a href="/membership-v2/" class="btn">Join EPS</a>
+        <a href="/membership/" class="btn">Join EPS</a>
       </div>
     </div>
   </div>
@@ -53,35 +53,35 @@ description: Edinburgh Photographic Society - Founded in 1861, welcomes photogra
 
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
     <div class="feature-card">
-      <h2><a href="/about-eps-v2/">About EPS</a></h2>
+      <h2><a href="/about/">About EPS</a></h2>
       <p>A summary of everything you might want to know about EPS.</p>
     </div>
     <div class="feature-card">
-      <h2><a href="/whats-on-v2/">What's on</a></h2>
+      <h2><a href="/whats-on/">What's on</a></h2>
       <p>Forthcoming meetings with a link to our complete syllabus.</p>
     </div>
     <div class="feature-card">
-      <h2><a href="/newsletters-v2/">Newsletters</a></h2>
+      <h2><a href="/newsletters/">Newsletters</a></h2>
       <p>Our regular newsletters with EPS news and articles about members work.</p>
     </div>
     <div class="feature-card">
-      <h2><a href="/exhibitions-v2/">Exhibitions</a></h2>
+      <h2><a href="/exhibitions/">Exhibitions</a></h2>
       <p>Information about and how to enter our world-renowned international exhibitions.</p>
     </div>
     <div class="feature-card">
-      <h2><a href="/membership-v2/">Membership</a></h2>
+      <h2><a href="/membership/">Membership</a></h2>
       <p>The benefits of joining EPS and how to become a member.</p>
     </div>
     <div class="feature-card">
-      <h2><a href="/learning-v2/">Learning</a></h2>
+      <h2><a href="/learning/">Learning</a></h2>
       <p>How EPS can help you develop as a photographer.</p>
     </div>
     <div class="feature-card">
-      <h2><a href="/groups-v2/">Groups</a></h2>
+      <h2><a href="/groups/">Groups</a></h2>
       <p>Find out more about the Society's special interest groups.</p>
     </div>
     <div class="feature-card">
-      <h2><a href="/facilities-v2/">Facilities</a></h2>
+      <h2><a href="/facilities/">Facilities</a></h2>
       <p>We have superb facilities for members. Find out more here.</p>
     </div>
     <div class="feature-card">
