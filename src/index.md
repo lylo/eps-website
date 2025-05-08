@@ -10,7 +10,7 @@ description: Edinburgh Photographic Society - Founded in 1861, welcomes photogra
       <h1 class="text-4xl font-bold mb-4">Edinburgh Photographic Society</h1>
       <p class="text-xl">Founded in 1861, Edinburgh Photographic Society welcomes all who share an interest in photography – from the complete beginner to the most skilled photographer.</p>
       <div class="mt-6">
-        <a href="/membership/" class="btn">Join EPS</a>
+        <a href="/membership-v2/" class="btn">Join EPS</a>
       </div>
     </div>
   </div>
