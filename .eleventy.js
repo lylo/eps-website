@@ -11,11 +11,13 @@ module.exports = function(eleventyConfig) {
 
   // Watch CSS files for changes
   eleventyConfig.addWatchTarget("./src/assets/styles/");
-  eleventyConfig.addWatchTarget("./_site/assets/styles/");
 
   // Browser Sync config - add parameters to fix live reload
   eleventyConfig.setBrowserSyncConfig({
-    files: './_site/assets/styles/styles.css',
+    files: [
+      './_site/assets/styles/styles.css',
+      './src/assets/styles/styles.css'
+    ],
     open: true,
     ghostMode: false,
     ui: false,

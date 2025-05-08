@@ -4,11 +4,11 @@
   "main": "index.js",
   "scripts": {
     "build": "npm-run-all clean build:css build:html",
-    "build:css": "mkdir -p _site/assets/styles && cross-env NODE_ENV=production postcss src/assets/styles/styles.css -o _site/assets/styles/styles.css",
+    "build:css": "mkdir -p _site/assets/styles && cross-env NODE_ENV=production npx @tailwindcss/cli -i ./src/assets/styles/styles.css -o ./_site/assets/styles/styles.css --minify",
     "build:html": "cross-env ELEVENTY_ENV=production eleventy",
     "clean": "rm -rf _site",
     "dev": "npm-run-all clean --parallel dev:*",
-    "dev:css": "tailwindcss -i ./src/assets/styles/styles.css -o ./_site/assets/styles/styles.css --watch",
+    "dev:css": "npx @tailwindcss/cli -i ./src/assets/styles/styles.css -o ./_site/assets/styles/styles.css --watch",
     "dev:html": "cross-env ELEVENTY_ENV=development eleventy --serve --incremental --watch",
     "process-md": "node scripts/clean-markdown.js",
     "start": "npm run dev"
@@ -33,6 +33,7 @@
     "tailwindcss": "^4.1.5"
   },
   "devDependencies": {
+    "@tailwindcss/cli": "^4.1.5",
     "@tailwindcss/postcss": "^4.1.5",
     "gray-matter": "^4.0.3"
   }
