@@ -1,19 +1,12 @@
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
-const collectionsConfig = require('./src/_11ty/collections');
 
 module.exports = function(eleventyConfig) {
-  // Add collections
-  collectionsConfig(eleventyConfig);
-
-  // Ignore the wp directory to prevent processing binary files
-  eleventyConfig.ignores.add("wp/**/*");
-
-  // Add passthrough copy for images and other assets
-  eleventyConfig.addPassthroughCopy("./src/css");  // Updated this line to use the correct CSS directory
-  eleventyConfig.addPassthroughCopy("./src/images");
-  eleventyConfig.addPassthroughCopy("./images");
+  // Add passthrough copy for assets
+  eleventyConfig.addPassthroughCopy("./src/assets/images");
+  eleventyConfig.addPassthroughCopy("./src/assets/styles");
+  eleventyConfig.addPassthroughCopy("./src/css");
   eleventyConfig.addPassthroughCopy("./admin");
 
   // Date formatting filter
@@ -29,7 +22,7 @@ module.exports = function(eleventyConfig) {
   }).use(markdownItAnchor);
   eleventyConfig.setLibrary("md", markdownLibrary);
 
-  // Extract first image from post content
+  // Extract first image from post content (if needed)
   eleventyConfig.addFilter("extractFirstImage", (content) => {
     if (!content) return null;
     const match = content.match(/<img[^>]+src="([^">]+)"/);
@@ -38,10 +31,10 @@ module.exports = function(eleventyConfig) {
 
   return {
     dir: {
-      input: ".",
+      input: "src",
       output: "_site",
-      includes: "src/_includes",
-      data: "src/_data"
+      includes: "_includes",
+      data: "_data"
     },
     templateFormats: ["md", "njk", "html"],
     markdownTemplateEngine: "njk",

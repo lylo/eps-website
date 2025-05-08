@@ -18,25 +18,25 @@ description: Edinburgh Photographic Society - Founded in 1861, welcomes photogra
 
 <div class="photo-grid mb-12">
   <div class="photo-card">
-    <img src="/images/Fine_Art_Nov_15.jpg" alt="Photography by David Greer" class="w-full h-64 object-cover">
+    <img src="/assets/images/Fine_Art_Nov_15.jpg" alt="Photography by David Greer" class="w-full h-64 object-cover">
     <div class="p-4 bg-white">
       <p class="font-semibold">David Greer</p>
     </div>
   </div>
   <div class="photo-card">
-    <img src="/images/No102.jpeg" alt="Photography by Dave Reid" class="w-full h-64 object-cover">
+    <img src="/assets/images/No102.jpeg" alt="Photography by Dave Reid" class="w-full h-64 object-cover">
     <div class="p-4 bg-white">
       <p class="font-semibold">Dave Reid</p>
     </div>
   </div>
   <div class="photo-card">
-    <img src="/images/Peter-Stubbs-Church-Hill-Edinburgh-18-Sep-2014-1-by-Doug-Berndt.jpeg" alt="Photography by James Glass" class="w-full h-64 object-cover">
+    <img src="/assets/images/Peter-Stubbs-Church-Hill-Edinburgh-18-Sep-2014-1-by-Doug-Berndt.jpeg" alt="Photography by James Glass" class="w-full h-64 object-cover">
     <div class="p-4 bg-white">
       <p class="font-semibold">James Glass</p>
     </div>
   </div>
   <div class="photo-card">
-    <img src="/images/people-2462-300x224.jpg" alt="Photography by Duncan Armour" class="w-full h-64 object-cover">
+    <img src="/assets/images/L1_1718_The-Buffalo-Must-Follow-The-Grass-Duncan-Armour-1.jpg.webp" alt="Photography by Duncan Armour" class="w-full h-64 object-cover">
     <div class="p-4 bg-white">
       <p class="font-semibold">Duncan Armour</p>
     </div>

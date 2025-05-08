@@ -1,0 +1,113 @@
+---
+layout: base.njk
+title: AWARD WINNERS AT THE MEMBERS’ EXHIBITION
+description: Edinburgh Photographic Society - AWARD WINNERS AT THE MEMBERS’ EXHIBITION
+---
+
+<div class="container mx-auto px-4 py-8">
+  <div class="prose max-w-3xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6">[AWARD WINNERS AT THE MEMBERS’ EXHIBITION](/uncategorized/award-winners-at-the-members-exhibition/)</h1>
+
+    - Post author:[Neil Scott](/author/neilscott/ "Posts by Neil Scott")
+- Post published:03/27/2014
+- Post category:[Uncategorized](/category/uncategorized/)
+
+Some of the award winners at the Members' Night on 21 March.&nbsp; Please click on images to zoom in.&nbsp; (You can click a second time for an even greater zoom!!)…
+
+[Continue ReadingAWARD WINNERS AT THE MEMBERS’ EXHIBITION](/uncategorized/award-winners-at-the-members-exhibition/)
+
+## [MEMBERS’ EXHIBITION POSTSCRIPT](/uncategorized/members-exhibition-postscript/)
+
+- Post author:[Neil Scott](/author/neilscott/ "Posts by Neil Scott")
+- Post published:03/24/2014
+- Post category:[Uncategorized](/category/uncategorized/)
+
+Although the Members' Exhibition was open to the public for two days this year, the attendance was disappointingly low.&nbsp;Only 72 visitors came through the door, and more than a few…
+
+[Continue ReadingMEMBERS’ EXHIBITION POSTSCRIPT](/uncategorized/members-exhibition-postscript/)
+
+## [MEMBERS’ NIGHT AT THE EXHIBITION](/uncategorized/members-night-at-the-exhibition/)
+
+- Post author:[Neil Scott](/author/neilscott/ "Posts by Neil Scott")
+- Post published:03/22/2014
+- Post category:[Uncategorized](/category/uncategorized/)
+
+Around 60 members braved a wet and windy night to attend the Members' Night at the Annual Exhibition. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; The Exhibition seemed…
+
+[Continue ReadingMEMBERS’ NIGHT AT THE EXHIBITION](/uncategorized/members-night-at-the-exhibition/)
+
+## [CD Group – Monday 10th Feb Creative Masterclass by Peter Paterson](/uncategorized/cd-group-monday-10th-feb-creative-masterclass-by-peter-paterson/)
+
+- Post author:[Doug Berndt](/author/dougberndt/ "Posts by Doug Berndt")
+- Post published:02/05/2014
+- Post category:[Uncategorized](/category/uncategorized/)
+
+This postponed activity, previously scheduled for 25th November (see syllabus). is being held this Monday 10th February in lieu of the informal photo critique session.
+
+[Continue ReadingCD Group – Monday 10th Feb Creative Masterclass by Peter Paterson](/uncategorized/cd-group-monday-10th-feb-creative-masterclass-by-peter-paterson/)
+
+## [CD Group Photo Safari feedback night](/uncategorized/cd-group-photo-safari-feedback-night/)
+
+- Post author:[Doug Berndt](/author/dougberndt/ "Posts by Doug Berndt")
+- Post published:01/19/2014
+- Post category:[Uncategorized](/category/uncategorized/)
+
+Just a reminder that the feedback and image presentation from our first photo safari is on 20th January. We drew lots for the running order last week and this is…
+
+[Continue ReadingCD Group Photo Safari feedback night](/uncategorized/cd-group-photo-safari-feedback-night/)
+
+## [SPF Club Print Championships](/uncategorized/spf-club-print-championships/)
+
+- Post author:[Neil Scott](/author/neilscott/ "Posts by Neil Scott")
+- Post published:01/16/2014
+- Post category:[Uncategorized](/category/uncategorized/)
+
+Please note that Neil has updated the information on the Phoenix Group pages regarding the selection of prints for the forthcoming Print Championships.
+
+[Continue ReadingSPF Club Print Championships](/uncategorized/spf-club-print-championships/)
+
+## [RPS SUCCESSES](/uncategorized/rps-successes/)
+
+- Post author:[Neil Scott](/author/neilscott/ "Posts by Neil Scott")
+- Post published:09/23/2013
+- Post category:[Uncategorized](/category/uncategorized/)
+
+Phoenix Group members have had considerable success at the September adjudications of the RPS distinctions panels. Jan Jerome, Richard Dyson and Ian McNaught were all successful with their panels for…
+
+[Continue ReadingRPS SUCCESSES](/uncategorized/rps-successes/)
+
+## [Public Open Night- 25th Sept](/uncategorized/public-open-night-25th-sept/)
+
+- Post author:[admin](/author/admin/ "Posts by admin")
+- Post published:09/14/2013
+- Post category:[Uncategorized](/category/uncategorized/)
+
+On Wednesday September 25th, we launch the start of the 2013-14 season with a public open night. If you were interested in finding out more about us, and maybe joining,…
+
+[Continue ReadingPublic Open Night- 25th Sept](/uncategorized/public-open-night-25th-sept/)
+
+- [Go to the previous page](/category/uncategorized/page/2/)
+- [1](/category/uncategorized/page/1/)
+- [2](/category/uncategorized/page/2/)
+- 3
+
+#### Recent News
+
+- [Members Exhibition 2020/2021](/uncategorized/20207/)10/12/2021
+- [FIRST EPS DIGITAL SALON](/uncategorized/19611/)09/06/2021
+- [Updated facility booking site](/eps_information/updated-facility-booking-site/)01/16/2020
+
+#### Categories
+CategoriesSelect CategoryEPS eventsEPS InformationExhibitionsGeneral AnnouncementUncategorized
+
+**Follow us on [Facebook](https://www.facebook.com/EdinburghPhotographicSociety/) and [Instagram](https://www.instagram.com/edinburghphotographicsociety) for frequent updates**!
+
+ Copyright 2025 - Edinburgh Photographic society and individual photographers
+
+We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept All”, you consent to the use of ALL the cookies. However, you may visit "Cookie Settings" to provide a controlled consent.
+
+Cookie SettingsAccept All
+
+    <p class="text-sm mt-12">©Edinburgh Photographic Society and individual photographers 2025</p>
+  </div>
+</div>
