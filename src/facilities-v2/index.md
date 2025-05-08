@@ -16,15 +16,15 @@ Members may access and use the building at any time, unless it has been booked f
 
 Find out about our premises at 68 Great King Street, Edinburgh.
 
-## [Studio](/studio/)
+## [Studio](/studio-v2/)
 
 All members, for a small annual fee, may use our well-equipped studio.
 
-## [Darkroom](/darkroom/)
+## [Darkroom](/darkroom-v2/)
 
 Our darkroom facilities for members interested in film photography.
 
-## [Library](/library/)
+## [Library](/library-v2/)
 
 Information about our large library of photographic books and journals.
 

@@ -17,10 +17,10 @@ description: Edinburgh Photographic Society - Find out about our 150+ year histo
     <h2 class="text-2xl font-bold mt-8 mb-2"><a href="/people-and-governance-v2">Governance</a></h2>
     <p class="mb-6">How EPS is governed and managed.</p>
 
-    <h2 class="text-2xl font-bold mt-8 mb-2"><a href="/competitions/">Competitions</a></h2>
+    <h2 class="text-2xl font-bold mt-8 mb-2"><a href="/competitions-v2/">Competitions</a></h2>
     <p class="mb-6">Information about our monthly competititions including rules and results.</p>
 
-    <h2 class="text-2xl font-bold mt-8 mb-2"><a href="/facilities/">Premises and facilities</a></h2>
+    <h2 class="text-2xl font-bold mt-8 mb-2"><a href="/facilities-v2/">Premises and facilities</a></h2>
     <p class="mb-6">We have superb facilities for members including studios and darkroom. Find out more here.</p>
 
     <h2 class="text-2xl font-bold mt-8 mb-2"><a href="/history-v2/">History</a></h2>
