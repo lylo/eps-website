@@ -1,10 +1,6 @@
-const { DateTime } = require("luxon");
-const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
-const csvParse = require("csv-parse/sync").parse;
-const fs = require("fs");
+import { parse as csvParse } from "csv-parse/sync";
 
-module.exports = function(eleventyConfig) {
+export default function(eleventyConfig) {
   // Add passthrough copy for assets
   eleventyConfig.addPassthroughCopy("./src/assets/images");
   eleventyConfig.addPassthroughCopy("./src/assets/styles");
@@ -22,26 +18,6 @@ module.exports = function(eleventyConfig) {
     ghostMode: false,
     ui: false,
     notify: true
-  });
-
-  // Date formatting filter
-  eleventyConfig.addFilter("formatDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toFormat("dd LLLL yyyy");
-  });
-
-  // Configure Markdown
-  let markdownLibrary = markdownIt({
-    html: true,
-    breaks: true,
-    linkify: true
-  }).use(markdownItAnchor);
-  eleventyConfig.setLibrary("md", markdownLibrary);
-
-  // Extract first image from post content (if needed)
-  eleventyConfig.addFilter("extractFirstImage", (content) => {
-    if (!content) return null;
-    const match = content.match(/<img[^>]+src="([^">]+)"/);
-    return match ? match[1] : null;
   });
 
   // Add CSV support
