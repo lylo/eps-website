@@ -3,21 +3,76 @@
 /* Load Inter font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+/* Custom color variables for light/dark mode using Tailwind colors */
+:root {
+  /* Light mode colors */
+  --header-bg: theme('colors.gray.50');
+  --nav-text: theme('colors.blue.800');
+  --nav-hover: theme('colors.blue.600');
+  --card-bg: theme('colors.white');
+  --card-border: theme('colors.gray.200');
+  --card-heading: theme('colors.blue.800');
+  --card-text: theme('colors.gray.800');
+  --btn-bg: theme('colors.blue.800');
+  --btn-hover: theme('colors.blue.600');
+  --btn-text: theme('colors.white');
+}
+
+/* Dark mode colors */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --header-bg: theme('colors.slate.800');
+    --nav-text: theme('colors.slate.200');
+    --nav-hover: theme('colors.blue.400');
+    --card-bg: theme('colors.slate.700');
+    --card-border: theme('colors.slate.600');
+    --card-heading: theme('colors.slate.200');
+    --card-text: theme('colors.slate.300');
+    --btn-bg: theme('colors.blue.600');
+    --btn-hover: theme('colors.blue.500');
+    --btn-text: theme('colors.white');
+  }
+}
+
 /* Custom utilities using @apply */
 .btn {
-  @apply inline-block px-4 py-2 rounded bg-blue-800 text-white transition-colors;
+  @apply inline-block px-4 py-2 rounded transition-colors;
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
 }
 
 .btn:hover {
-  @apply bg-blue-700;
+  background-color: var(--btn-hover);
 }
 
 .feature-card {
-  @apply bg-white rounded-lg shadow-md p-6 m-2 sm:m-0;
+  @apply rounded-lg shadow-md p-6 m-2 sm:m-0 transition-colors;
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
 }
 
 .feature-card h2 {
   @apply text-lg font-semibold mb-2;
+  color: var(--card-heading);
+}
+
+.feature-card p {
+  color: var(--card-text);
+}
+
+/* Site header styles */
+.site-header {
+  background-color: var(--header-bg);
+  @apply shadow-sm transition-colors;
+}
+
+.site-nav a {
+  color: var(--nav-text);
+  @apply font-medium transition-colors;
+}
+
+.site-nav a:hover {
+  color: var(--nav-hover);
 }
 
 .photo-grid {
@@ -38,6 +93,7 @@
 
 .photo-card {
   @apply rounded-lg overflow-hidden shadow-md;
+  background-color: var(--card-bg);
 }
 
 .page-container {

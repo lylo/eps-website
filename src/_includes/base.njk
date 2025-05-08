@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="antialiased">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,28 +7,28 @@
   <meta name="description" content="{{ description }}">
   <link rel="stylesheet" href="/css/styles.css">
 </head>
-<body>
-  <header>
+<body class="min-h-screen flex flex-col">
+  <header class="site-header">
     <div class="container mx-auto px-4 py-4">
-      <div class="flex justify-between items-center">
-        <a href="/" class="logo">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <a href="/" class="logo mb-4 md:mb-0">
           <img src="/assets/images/custom-logo.jpg" alt="Edinburgh Photographic Society" class="h-16">
         </a>
-        <nav>
-          <ul class="flex space-x-6">
-            <li><a href="/" class="nav-link">Home</a></li>
-            <li><a href="/about/" class="nav-link">About</a></li>
-            <li><a href="/whats-on/" class="nav-link">What's On</a></li>
-            <li><a href="/exhibitions/" class="nav-link">Exhibitions</a></li>
-            <li><a href="/membership/" class="nav-link">Membership</a></li>
-            <li><a href="/contact/" class="nav-link">Contact</a></li>
+        <nav class="site-nav">
+          <ul class="flex flex-wrap justify-center space-x-2 md:space-x-6">
+            <li><a href="/" class="px-2 py-1">Home</a></li>
+            <li><a href="/about/" class="px-2 py-1">About</a></li>
+            <li><a href="/whats-on/" class="px-2 py-1">What's On</a></li>
+            <li><a href="/exhibitions/" class="px-2 py-1">Exhibitions</a></li>
+            <li><a href="/membership/" class="px-2 py-1">Membership</a></li>
+            <li><a href="/contact/" class="px-2 py-1">Contact</a></li>
           </ul>
         </nav>
       </div>
     </div>
   </header>
 
-  <main>
+  <main class="flex-grow">
     {{ content | safe }}
   </main>
 
