@@ -16,80 +16,82 @@ description: Edinburgh Photographic Society - Founded in 1861, welcomes photogra
   </div>
 </div>
 
-<div class="photo-grid mb-12">
-  <div class="photo-card">
-    <img src="/assets/images/Fine_Art_Nov_15.jpg" alt="Photography by David Greer" class="w-full h-64 object-cover">
-    <div class="p-4 bg-white">
-      <p class="font-semibold">David Greer</p>
+<div class="max-w-6xl mx-auto">
+  <div class="photo-grid mb-12">
+    <div class="photo-card">
+      <img src="/assets/images/Fine_Art_Nov_15.jpg" alt="Photography by David Greer" class="w-full h-64 object-cover">
+      <div class="p-4 bg-white">
+        <p class="font-semibold">David Greer</p>
+      </div>
+    </div>
+    <div class="photo-card">
+      <img src="/assets/images/No102.jpeg" alt="Photography by Dave Reid" class="w-full h-64 object-cover">
+      <div class="p-4 bg-white">
+        <p class="font-semibold">Dave Reid</p>
+      </div>
+    </div>
+    <div class="photo-card">
+      <img src="/assets/images/Peter-Stubbs-Church-Hill-Edinburgh-18-Sep-2014-1-by-Doug-Berndt.jpeg" alt="Photography by James Glass" class="w-full h-64 object-cover">
+      <div class="p-4 bg-white">
+        <p class="font-semibold">James Glass</p>
+      </div>
+    </div>
+    <div class="photo-card">
+      <img src="/assets/images/L1_1718_The-Buffalo-Must-Follow-The-Grass-Duncan-Armour-1.jpg.webp" alt="Photography by Duncan Armour" class="w-full h-64 object-cover">
+      <div class="p-4 bg-white">
+        <p class="font-semibold">Duncan Armour</p>
+      </div>
     </div>
   </div>
-  <div class="photo-card">
-    <img src="/assets/images/No102.jpeg" alt="Photography by Dave Reid" class="w-full h-64 object-cover">
-    <div class="p-4 bg-white">
-      <p class="font-semibold">Dave Reid</p>
+
+  <div class="container mx-auto px-4 mb-12">
+    <div class="prose max-w-none">
+      <p class="text-lg">We have a full annual programme of lectures, demonstrations and club competitions to challenge and improve your skills. Meetings are held in our premises in the Edinburgh New Town and most meetings are also streamed to members on Zoom.</p>
+      <p class="text-lg">We have an active community of members from outside Edinburgh and welcome photographers from anywhere in the world as members. Most members use digital cameras but we also have an active group of film photographers, who use our darkroom facilities.</p>
     </div>
   </div>
-  <div class="photo-card">
-    <img src="/assets/images/Peter-Stubbs-Church-Hill-Edinburgh-18-Sep-2014-1-by-Doug-Berndt.jpeg" alt="Photography by James Glass" class="w-full h-64 object-cover">
-    <div class="p-4 bg-white">
-      <p class="font-semibold">James Glass</p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+    <div class="feature-card">
+      <h2><a href="/about-eps-v2/">About EPS</a></h2>
+      <p>A summary of everything you might want to know about EPS.</p>
     </div>
-  </div>
-  <div class="photo-card">
-    <img src="/assets/images/L1_1718_The-Buffalo-Must-Follow-The-Grass-Duncan-Armour-1.jpg.webp" alt="Photography by Duncan Armour" class="w-full h-64 object-cover">
-    <div class="p-4 bg-white">
-      <p class="font-semibold">Duncan Armour</p>
+    <div class="feature-card">
+      <h2><a href="/whats-on-v2/">What's on</a></h2>
+      <p>Forthcoming meetings with a link to our complete syllabus.</p>
+    </div>
+    <div class="feature-card">
+      <h2><a href="/newsletters-v2/">Newsletters</a></h2>
+      <p>Our regular newsletters with EPS news and articles about members work.</p>
+    </div>
+    <div class="feature-card">
+      <h2><a href="/exhibitions-v2/">Exhibitions</a></h2>
+      <p>Information about and how to enter our world-renowned international exhibitions.</p>
+    </div>
+    <div class="feature-card">
+      <h2><a href="/membership-v2/">Membership</a></h2>
+      <p>The benefits of joining EPS and how to become a member.</p>
+    </div>
+    <div class="feature-card">
+      <h2><a href="/learning-v2/">Learning</a></h2>
+      <p>How EPS can help you develop as a photographer.</p>
+    </div>
+    <div class="feature-card">
+      <h2><a href="/groups-v2/">Groups</a></h2>
+      <p>Find out more about the Society's special interest groups.</p>
+    </div>
+    <div class="feature-card">
+      <h2><a href="/facilities-v2/">Facilities</a></h2>
+      <p>We have superb facilities for members. Find out more here.</p>
+    </div>
+    <div class="feature-card">
+      <h2><a href="/contact/">Contact</a></h2>
+      <p>Get in touch with the Edinburgh Photographic Society.</p>
     </div>
   </div>
 </div>
 
-<div class="container mx-auto px-4 mb-12">
-  <div class="prose max-w-none">
-    <p class="text-lg">We have a full annual programme of lectures, demonstrations and club competitions to challenge and improve your skills. Meetings are held in our premises in the Edinburgh New Town and most meetings are also streamed to members on Zoom.</p>
-    <p class="text-lg">We have an active community of members from outside Edinburgh and welcome photographers from anywhere in the world as members. Most members use digital cameras but we also have an active group of film photographers, who use our darkroom facilities.</p>
-  </div>
-</div>
-
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-  <div class="feature-card">
-    <h2><a href="/about-eps-v2/">About EPS</a></h2>
-    <p>A summary of everything you might want to know about EPS.</p>
-  </div>
-  <div class="feature-card">
-    <h2><a href="/whats-on-v2/">What's on</a></h2>
-    <p>Forthcoming meetings with a link to our complete syllabus.</p>
-  </div>
-  <div class="feature-card">
-    <h2><a href="/newsletters-v2/">Newsletters</a></h2>
-    <p>Our regular newsletters with EPS news and articles about members work.</p>
-  </div>
-  <div class="feature-card">
-    <h2><a href="/exhibitions-v2/">Exhibitions</a></h2>
-    <p>Information about and how to enter our world-renowned international exhibitions.</p>
-  </div>
-  <div class="feature-card">
-    <h2><a href="/membership-v2/">Membership</a></h2>
-    <p>The benefits of joining EPS and how to become a member.</p>
-  </div>
-  <div class="feature-card">
-    <h2><a href="/learning-v2/">Learning</a></h2>
-    <p>How EPS can help you develop as a photographer.</p>
-  </div>
-  <div class="feature-card">
-    <h2><a href="/groups-v2/">Groups</a></h2>
-    <p>Find out more about the Society's special interest groups.</p>
-  </div>
-  <div class="feature-card">
-    <h2><a href="/facilities-v2/">Facilities</a></h2>
-    <p>We have superb facilities for members. Find out more here.</p>
-  </div>
-  <div class="feature-card">
-    <h2><a href="/contact/">Contact</a></h2>
-    <p>Get in touch with the Edinburgh Photographic Society.</p>
-  </div>
-</div>
-
-<div class="bg-gray-100 py-8 mb-12">
+<div class="bg-gray-100 py-8">
   <div class="container mx-auto px-4">
     <div class="text-center">
       <h2 class="text-2xl font-bold mb-6">Follow Us Online</h2>

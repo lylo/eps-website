@@ -1,6 +1,7 @@
 ---
-layout: page.njk
-title: Privacy And Data Protection V2
+layout: basic-page.njk
+title: "Privacy and Data Protection"
+description: "Edinburgh Photographic Society - Privacy and Data Protection Policy"
 ---
 [Skip to content](#main)
 
@@ -78,10 +79,10 @@ title: Privacy And Data Protection V2
 
 At Edinburgh Photographic Society (EPS), we are committed to maintaining the trust and confidence of our members and stakeholders. The documents here explain how your data will be used, shared and protected.
 
-[EPS Privacy Notice 2024](https://www.dropbox.com/scl/fi/l7o6oj4n3723osjsl9aoj/EPS-Privacy-Notice-2024-V2.0.pdf?rlkey=6ifmawy95qhjomnwka6qkqyds&dl=0)  
+[EPS Privacy Notice 2024](https://www.dropbox.com/scl/fi/l7o6oj4n3723osjsl9aoj/EPS-Privacy-Notice-2024-V2.0.pdf?rlkey=6ifmawy95qhjomnwka6qkqyds&dl=0)
 [EPS Data Protection Policy 2024](https://www.dropbox.com/scl/fi/atzhrs3b6ij4avo3caaji/EPS-Data-Protection-Policy-2024-V2.1.pdf?rlkey=3t7pabuudeyg1d2uds9ocbpxv&dl=0)
 
- Copyright 2025 - Edinburgh Photographic society and individual photographers 
+ Copyright 2025 - Edinburgh Photographic society and individual photographers
 
 We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept All”, you consent to the use of ALL the cookies. However, you may visit "Cookie Settings" to provide a controlled consent.
 
@@ -95,7 +96,7 @@ Close
 
 This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may affect your browsing experience.
 
- Necessary 
+ Necessary
 Necessary
 Always Enabled
 
@@ -110,29 +111,29 @@ Always Enabled
 | cookielawinfo-checkbox-performance | 11 months | This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Performance". |
 | viewed\_cookie\_policy | 11 months | The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies. It does not store any personal data. |
 
- Functional 
+ Functional
 Functional
 
- Functional cookies help to perform certain functionalities like sharing the content of the website on social media platforms, collect feedbacks, and other third-party features. 
+ Functional cookies help to perform certain functionalities like sharing the content of the website on social media platforms, collect feedbacks, and other third-party features.
 
- Performance 
+ Performance
 Performance
 
- Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better user experience for the visitors. 
+ Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better user experience for the visitors.
 
- Analytics 
+ Analytics
 Analytics
 
- Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics the number of visitors, bounce rate, traffic source, etc. 
+ Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics the number of visitors, bounce rate, traffic source, etc.
 
- Advertisement 
+ Advertisement
 Advertisement
 
- Advertisement cookies are used to provide visitors with relevant ads and marketing campaigns. These cookies track visitors across websites and collect information to provide customized ads. 
+ Advertisement cookies are used to provide visitors with relevant ads and marketing campaigns. These cookies track visitors across websites and collect information to provide customized ads.
 
- Others 
+ Others
 Others
 
- Other uncategorized cookies are those that are being analyzed and have not been classified into a category as yet. 
+ Other uncategorized cookies are those that are being analyzed and have not been classified into a category as yet.
 
 SAVE & ACCEPT

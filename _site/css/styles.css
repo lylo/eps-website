@@ -21,6 +21,7 @@
     --spacing: 0.25rem;
     --container-lg: 32rem;
     --container-3xl: 48rem;
+    --container-6xl: 72rem;
     --container-7xl: 80rem;
     --text-sm: 0.875rem;
     --text-sm--line-height: calc(1.25 / 0.875);
@@ -330,6 +331,9 @@
   }
   .max-w-3xl {
     max-width: var(--container-3xl);
+  }
+  .max-w-6xl {
+    max-width: var(--container-6xl);
   }
   .max-w-lg {
     max-width: var(--container-lg);
@@ -644,11 +648,22 @@
   background-color: var(--color-blue-700);
 }
 .feature-card {
+  margin: calc(var(--spacing) * 2);
   border-radius: var(--radius-lg);
   background-color: var(--color-white);
   padding: calc(var(--spacing) * 6);
   --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
   box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  @media (width >= 40rem) {
+    margin: calc(var(--spacing) * 0);
+  }
+}
+.feature-card h2 {
+  margin-bottom: calc(var(--spacing) * 2);
+  font-size: var(--text-lg);
+  line-height: var(--tw-leading, var(--text-lg--line-height));
+  --tw-font-weight: var(--font-weight-semibold);
+  font-weight: var(--font-weight-semibold);
 }
 .photo-grid {
   margin-inline: auto;
