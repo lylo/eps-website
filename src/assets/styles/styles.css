@@ -12,7 +12,7 @@
   --nav-hover: theme('colors.blue.600');
   --card-bg: theme('colors.gray.50');
   --card-border: theme('colors.gray.200');
-  --card-heading: theme('colors.gray.900');
+  --card-heading: theme('colors.blue.800');
   --card-text: theme('colors.gray.800');
   --heading-color: theme('colors.gray.900');
   --btn-bg: theme('colors.blue.800');
@@ -95,7 +95,7 @@
 
 .feature-card a {
   color: var(--card-heading);
-  @apply font-medium;
+  @apply font-semibold transition-colors hover:underline;
 }
 
 .feature-card p {
