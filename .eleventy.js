@@ -4,6 +4,7 @@ export default function(eleventyConfig) {
   // Add passthrough copy for assets
   eleventyConfig.addPassthroughCopy("./src/assets/images");
   eleventyConfig.addPassthroughCopy("./src/assets/styles");
+  eleventyConfig.addPassthroughCopy("./src/admin");
 
   // Watch CSS files for changes
   eleventyConfig.addWatchTarget("./src/assets/styles/");

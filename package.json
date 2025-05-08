@@ -25,5 +25,6 @@
     "tailwindcss": "^4.1.5"
   },
   "devDependencies": {
+    "decap-cms": "^3.6.2"
   }
 }
