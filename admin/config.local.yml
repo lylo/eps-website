@@ -1,5 +1,0 @@
-# Local Netlify CMS configuration for development
-# This allows you to run the CMS locally without needing to be connected to Netlify
-# Run with: npx netlify-cms-proxy-server
-backend:
-  name: git-gateway
