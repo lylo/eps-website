@@ -3,6 +3,14 @@ layout: page.njk
 title: Our Premises
 description: Edinburgh Photographic Society - Our Premises
 ---
+
+<div class="not-prose grid grid-cols-1 md:grid-cols-4 gap-6">
+  <img src="/assets/images/facilities/premises-entrance-hall.webp" alt="Entrance Hall" class="rounded w-full object-cover">
+  <img src="/assets/images/facilities/premises-main-hall.webp" alt="Main Hall" class="rounded w-full object-cover">
+  <img src="/assets/images/facilities/premises-staircase.webp" alt="Staircase" class="rounded w-full object-cover">
+  <img src="/assets/images/facilities/premises-garden.webp" alt="Garden" class="rounded w-full object-cover">
+</div>
+
 Edinburgh Photographic Society is fortunate to have its own premises at 68 Great King Street in the heart of Edinburgh's New Town. The Society bought these premises in 1954, funded by its members.
 
 These building includes a large lecture hall, where most of our meetings are held, a large darkroom, a large studio, a second smaller studio, 2 exhibition rooms and a library, along with offices, kitchen and toilets.
