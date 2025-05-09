@@ -21,4 +21,4 @@ Exhibition Secretary/Chair: Isobel Lindsay
 
 ![](images/images-2025-small.jpg)
 
-![](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)
+![](../assets/images/flyers/EPS-International-Flyer-HM-A5-v2.webp)
