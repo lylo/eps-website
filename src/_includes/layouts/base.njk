@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" class="antialiased">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }} | Edinburgh Photographic Society</title>
-  <meta name="description" content="{{ description }}">
+  {% include "partials/seo.njk" %}
   <link rel="stylesheet" href="/assets/styles/styles.css">
   <!-- Netlify Identity Widget -->
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  {% include "partials/structured-data.njk" %}
 </head>
 <body class="min-h-screen flex flex-col">
 

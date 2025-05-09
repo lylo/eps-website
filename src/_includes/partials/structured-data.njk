@@ -1,0 +1,75 @@
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "{{ site.title }}",
+  "url": "{{ site.url }}",
+  "logo": "{{ site.url }}/assets/images/eps-logo.png",
+  "description": "{{ site.description }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "68 Great King Street",
+    "addressLocality": "Edinburgh",
+    "postalCode": "EH3 6QU",
+    "addressCountry": "UK"
+  },
+  "email": "{{ site.authorEmail }}",
+  "sameAs": [
+    "https://www.facebook.com/edinburghphotographicsociety",
+    "https://www.instagram.com/edinburghphotographicsociety/"
+  ]
+}
+</script>
+
+{% if page.url != "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ site.url }}"
+    }{% if page.url %}{% set breadcrumbParts = page.url | split('/') %}{% set currentUrl = "" %}{% set position = 2 %}{% for part in breadcrumbParts %}{% if part %}{% set currentUrl = currentUrl + "/" + part %}{% set partTitle = part | capitalize | replace("-", " ") %},
+    {
+      "@type": "ListItem",
+      "position": {{ position }},
+      "name": "{{ partTitle }}",
+      "item": "{{ site.url }}{{ currentUrl }}"
+    }{% set position = position + 1 %}{% endif %}{% endfor %}
+  {% endif %}]
+}
+</script>
+{% endif %}
+
+{% if page.layout == 'event' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "{{ title }}",
+  "description": "{{ description }}",
+  "startDate": "{{ date | dateToISO }}",
+  "endDate": "{{ endDate | dateToISO }}",
+  "location": {
+    "@type": "Place",
+    "name": "Edinburgh Photographic Society",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "68 Great King Street",
+      "addressLocality": "Edinburgh",
+      "postalCode": "EH3 6QU",
+      "addressCountry": "UK"
+    }
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "Edinburgh Photographic Society",
+    "url": "{{ site.url }}"
+  }
+}
+</script>
+{% endif %}

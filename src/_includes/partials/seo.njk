@@ -1,0 +1,40 @@
+<!-- SEO meta tags -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% if title %}{{ title }} | {% endif %}{{ site.title }}</title>
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="author" content="{{ site.author }}">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ page.url | url | absoluteUrl(site.url) }}">
+<meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ site.title }}">
+<meta property="og:description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:image" content="{% if featured_image %}{{ featured_image | url | absoluteUrl(site.url) }}{% else %}{{ '/assets/images/gks-front-door.webp' | url | absoluteUrl(site.url) }}{% endif %}">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ page.url | url | absoluteUrl(site.url) }}">
+<meta property="twitter:title" content="{% if title %}{{ title }} | {% endif %}{{ site.title }}">
+<meta property="twitter:description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
+<meta property="twitter:image" content="{% if featured_image %}{{ featured_image | url | absoluteUrl(site.url) }}{% else %}{{ '/assets/images/gks-front-door.webp' | url | absoluteUrl(site.url) }}{% endif %}">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ page.url | url | absoluteUrl(site.url) }}">
+
+<!-- Robots Meta -->
+<meta name="robots" content="index, follow">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | url | absoluteUrl(site.url) }}">
+
+<!-- Debug info (only visible in HTML source) -->
+<!--
+  Environment: {{ site.environment }}
+  URL: {{ site.url }}
+  Page URL: {{ page.url }}
+  Absolute URL: {{ page.url | url | absoluteUrl(site.url) }}
+  Image URL: {{ '/assets/images/gks-front-door.webp' | url | absoluteUrl(site.url) }}
+-->
