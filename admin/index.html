@@ -11,17 +11,5 @@
   <body>
     <!-- Include the script that builds the page and powers Decap CMS -->
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-
-    <!-- Script to support local development -->
-    <script>
-      // Check if we're running on localhost
-      if (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") {
-        // Use local backend when running locally
-        window.CMS_MANUAL_INIT = true;
-        window.decapCmsConfig = {
-          local_backend: true
-        };
-      }
-    </script>
   </body>
 </html>
