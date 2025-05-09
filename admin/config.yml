@@ -18,9 +18,7 @@ collections:
     nested:
       depth: 100
       summary: "{{title}}"
-    filter:
-      field: "layout"
-      pattern: "page.njk"
+    exclude: "_includes/**/*,_data/**/*,_11ty/**/*,assets/**/*,admin/**/*"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page.njk"}
       - {label: "Title", name: "title", widget: "string"}
@@ -28,4 +26,35 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Featured Image", name: "featuredImage", widget: "image", required: false}
       - {label: "Permalink", name: "permalink", widget: "string", required: false}
+
+  # Individual important page collections
+  - name: "key_pages"
+    label: "Key Pages"
+    files:
+      - name: "membership"
+        label: "Membership Page"
+        file: "src/membership/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - name: "about"
+        label: "About Page"
+        file: "src/about/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - name: "contact"
+        label: "Contact Page"
+        file: "src/contact/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
 
