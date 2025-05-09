@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1bee523f-f5bd-4bb4-9bc7-e69011e5f75b/deploy-status)](https://app.netlify.com/sites/eps-website/deploys)
+
 # Edinburgh Photographic Society Website
 
 This is a test website for Edinburgh Photographic Society built with [11ty](https://www.11ty.dev/), [Tailwind CSS](https://tailwindcss.com/), and [Decap CMS](https://decapcms.org/).
