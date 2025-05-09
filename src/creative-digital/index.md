@@ -25,7 +25,7 @@ description: Edinburgh Photographic Society - The CD group
       </div>
     </div>
     <div class="photo-card">
-      <img src="/assets/images/members/W1-Candia-Peterson-Candia-2.webp" alt="Candia Peterson" class="w-full object-cover">
+      <img src="/assets/images/members/W1-Candia-Peterson-Candia-2.webp" alt="Photography by Candia Peterson" class="w-full object-cover">
       <div class="p-2 text">
         Candia Peterson
       </div>

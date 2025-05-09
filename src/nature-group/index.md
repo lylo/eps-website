@@ -3,6 +3,36 @@ layout: page.njk
 title: Nature group
 description: Edinburgh Photographic Society - Nature group
 ---
+
+<div class="not-prose max-w-6xl mx-auto">
+  <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mx-auto max-w-7xl mb-8">
+    <div class="photo-card">
+      <img src="/assets/images/members/Snow-BuntingN-Jim-Moir-nature-v2-e1710156557652-ql1w9dcgyha3qrphmmf6lnu7mprvz1zhaju5kkytxc.webp" alt="Photography by Jim Moir" class="w-full object-cover">
+      <div class="p-2">
+        Jim Moir
+      </div>
+    </div>
+    <div class="photo-card">
+      <img src="/assets/images/members/Secretary-Blenny-in-Brain-Coral-Rosemary-Gillies-nature-v2-1.webp" alt="Photography by Rosemary Gillies" class="w-full object-cover">
+      <div class="p-2">
+        Rosemary Gillies
+      </div>
+    </div>
+    <div class="photo-card">
+      <img src="/assets/images/members/Pine-Marten-in-the-Rain_N-Keith-Thorburn-nature-v2-1.webp" alt="Photography by Keith Thorburn" class="w-full object-cover">
+      <div class="p-2">
+        Keith Thorburn
+      </div>
+    </div>
+    <div class="photo-card">
+      <img src="/assets/images/members/Hen-Harrier-Hunting-Dave-Reid-nature-v2-e1710156998413.webp" alt="Photography by Dave Reid" class="w-full object-cover">
+      <div class="p-2 text">
+        Dave Reid
+      </div>
+    </div>
+  </div>
+</div>
+
 Our thriving Nature Group has many experienced members and nature specialists. We share a passion not just for photography, but also for understanding the natural world. Any member of EPS may join the Nature Group and we welcome new members, whether experienced photographers or beginners.
 
 Our interests range from plants through the tiniest of creatures to the largest mammals and birds. We have experts both at home and abroad and our members provide unique insights into the natural world.
