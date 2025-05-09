@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/aspect-ratio";
 @plugin "@tailwindcss/typography";
 
 /* Load Inter font */

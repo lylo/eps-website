@@ -7,8 +7,8 @@ description: >-
 ---
 Edinburgh Photographic Society (EPS) has been active for more than 150 years and, currently, has around 200 members. There are several meetings per week during the season, which runs from September to April, with informal meetings organised during the summer. Our [What's On](/whats-on/) page has details of forthcoming meetings and our season's syllabus.
 
-<div class="w-full mx-auto">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kpSPe9laZus?si=0HY06N-ph1sSYspw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="aspect-w-16 aspect-h-9">
+<iframe class="mx-auto w-full h-full" src="https://www.youtube.com/embed/kpSPe9laZus?si=0HY06N-ph1sSYspw" allow="autoplay clipboard-write encrypted-media fullscreen picture-in-picture" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 Our International Exhibition is held as part of the Edinburgh Fringe festival and attracts entries from all over the world.
