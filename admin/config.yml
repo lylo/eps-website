@@ -9,38 +9,15 @@ publish_mode: editorial_workflow
 media_folder: "src/assets/images/uploads"
 public_folder: "/assets/images/uploads"
 
+# Define common field patterns
+site_page_fields: &site_page_fields
+  - {label: "Layout", name: "layout", widget: "hidden", default: "page.njk"}
+  - {label: "Title", name: "title", widget: "string"}
+  - {label: "Description", name: "description", widget: "string", required: false}
+  - {label: "Body", name: "body", widget: "markdown"}
+
 # Collections define the structure for content types
 collections:
-  - name: "pages"
-    label: "Site Pages"
-    folder: "src"
-    create: true
-    nested:
-      depth: 100
-      summary: "{{title}}"
-    exclude:
-      - "_includes/**/*"
-      - "_data/**/*"
-      - "_11ty/**/*"
-      - "assets/**/*"
-      - "admin/**/*"
-      - "posts/**/*"
-      - "events/**/*"
-    include:
-      - "membership/index.md"
-      - "about/index.md"
-      - "contact/index.md"
-      - "whats-on/index.md"
-      - "exhibitions/index.md"
-      - "learning/index.md"
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Featured Image", name: "featuredImage", widget: "image", required: false}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false}
-
   # Individual important page collections
   - name: "main_pages"
     label: "Main Pages"
@@ -48,36 +25,25 @@ collections:
       - name: "membership"
         label: "Membership"
         file: "src/membership/index.md"
-        fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page.njk"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string", required: false}
-          - {label: "Body", name: "body", widget: "markdown"}
+        fields: *site_page_fields
 
       - name: "about"
         label: "About"
         file: "src/about/index.md"
-        fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page.njk"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string", required: false}
-          - {label: "Body", name: "body", widget: "markdown"}
+        fields: *site_page_fields
 
       - name: "contact"
         label: "Contact"
         file: "src/contact/index.md"
-        fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page.njk"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string", required: false}
-          - {label: "Body", name: "body", widget: "markdown"}
+        fields: *site_page_fields
 
       - name: "whats-on"
         label: "What's On"
-        file: "src/whats-ao/index.md"
-        fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page.njk"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string", required: false}
-          - {label: "Body", name: "body", widget: "markdown"}
+        file: "src/whats-on/index.md" # Fixed typo in path (was 'whats-ao')
+        fields: *site_page_fields
+
+      - name: "exhibitions"
+        label: "Exhibitions"
+        file: "src/exhibitions/index.md"
+        fields: *site_page_fields
 
