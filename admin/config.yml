@@ -12,19 +12,7 @@ public_folder: "/assets/images/uploads"
 # Collections define the structure for content types
 collections:
   - name: "pages"
-    label: "Pages"
-    folder: "src"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Featured Image", name: "featuredImage", widget: "image", required: false}
-      - {label: "Permalink", name: "permalink", widget: "string", required: false}
-
-  - name: "content_pages"
-    label: "Content Pages"
+    label: "Site Pages"
     folder: "src"
     create: true
     nested:
@@ -38,59 +26,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-
-  - name: "membership"
-    label: "Membership"
-    files:
-      - name: "membership"
-        label: "Membership Page"
-        file: "src/membership/index.md"
-        fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page.njk"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string", required: false}
-          - {label: "Body", name: "body", widget: "markdown"}
-
-  - name: "about"
-    label: "About Pages"
-    files:
-      - name: "about"
-        label: "About Page"
-        file: "src/about/index.md"
-        fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "page.njk"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string", required: false}
-          - {label: "Body", name: "body", widget: "markdown"}
-
-  - name: "posts"
-    label: "News & Updates"
-    folder: "src/posts"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "featuredImage", widget: "image", required: false}
-      - {label: "Summary", name: "summary", widget: "text", required: false}
-      - {label: "Tags", name: "tags", widget: "list", default: ["post"]}
-      - {label: "Body", name: "body", widget: "markdown"}
-
-  - name: "events"
-    label: "Events"
-    folder: "src/events"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/event.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Event Date", name: "eventDate", widget: "datetime"}
-      - {label: "End Date", name: "endDate", widget: "datetime", required: false}
-      - {label: "Location", name: "location", widget: "string", required: false}
-      - {label: "Featured Image", name: "featuredImage", widget: "image", required: false}
-      - {label: "Description", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list", default: ["event"]}
-
-  # Add more collections as needed
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
 
