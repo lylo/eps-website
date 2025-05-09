@@ -22,11 +22,6 @@ collections:
   - name: "main_pages"
     label: "Main Pages"
     files:
-      - name: "membership"
-        label: "Membership"
-        file: "src/membership/index.md"
-        fields: *site_page_fields
-
       - name: "about"
         label: "About"
         file: "src/about/index.md"
@@ -37,13 +32,18 @@ collections:
         file: "src/contact/index.md"
         fields: *site_page_fields
 
-      - name: "whats-on"
-        label: "What's On"
-        file: "src/whats-on/index.md" # Fixed typo in path (was 'whats-ao')
-        fields: *site_page_fields
-
       - name: "exhibitions"
         label: "Exhibitions"
         file: "src/exhibitions/index.md"
+        fields: *site_page_fields
+
+      - name: "membership"
+        label: "Membership"
+        file: "src/membership/index.md"
+        fields: *site_page_fields
+
+      - name: "whats-on"
+        label: "What's On"
+        file: "src/whats-on/index.md" # Fixed typo in path (was 'whats-ao')
         fields: *site_page_fields
 
