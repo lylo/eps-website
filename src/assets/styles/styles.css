@@ -141,9 +141,13 @@ footer {
 }
 
 .photo-card {
-  @apply rounded-lg overflow-hidden shadow-md;
+  @apply rounded overflow-hidden shadow-md;
   color: var(--card-text);
   background-color: var(--card-bg);
+}
+
+.photo-card img {
+  @apply w-full h-auto aspect-auto object-contain;
 }
 
 .page-container {
