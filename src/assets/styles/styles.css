@@ -141,7 +141,7 @@ footer {
 }
 
 .photo-card {
-  @apply rounded overflow-hidden shadow-md;
+  @apply rounded overflow-hidden shadow-md text-center text-sm font-medium;
   color: var(--card-text);
   background-color: var(--card-bg);
 }
