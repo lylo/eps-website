@@ -23,6 +23,46 @@ collections:
       - {label: "Featured Image", name: "featuredImage", widget: "image", required: false}
       - {label: "Permalink", name: "permalink", widget: "string", required: false}
 
+  - name: "content_pages"
+    label: "Content Pages"
+    folder: "src"
+    create: true
+    nested:
+      depth: 100
+      summary: "{{title}}"
+    filter:
+      field: "layout"
+      pattern: "page.njk"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "membership"
+    label: "Membership"
+    files:
+      - name: "membership"
+        label: "Membership Page"
+        file: "src/membership/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "about"
+    label: "About Pages"
+    files:
+      - name: "about"
+        label: "About Page"
+        file: "src/about/index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page.njk"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "posts"
     label: "News & Updates"
     folder: "src/posts"
