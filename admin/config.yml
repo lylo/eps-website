@@ -1,6 +1,10 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: decap # Branch to update - using decap branch for testing
+  site_url: https://devserver-decap--eps-website.netlify.app # Preview deployment URL
+
+# Local backend for local development
+local_backend: true
 
 # Publish mode option for editorial workflow
 publish_mode: editorial_workflow
@@ -22,7 +26,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Featured Image", name: "featuredImage", widget: "image", required: false}
       - {label: "Permalink", name: "permalink", widget: "string", required: false}
-      
+
   - name: "posts"
     label: "News & Updates"
     folder: "src/posts"
@@ -36,7 +40,7 @@ collections:
       - {label: "Summary", name: "summary", widget: "text", required: false}
       - {label: "Tags", name: "tags", widget: "list", default: ["post"]}
       - {label: "Body", name: "body", widget: "markdown"}
-      
+
   - name: "events"
     label: "Events"
     folder: "src/events"
