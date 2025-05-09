@@ -19,6 +19,7 @@ collections:
       depth: 100
       summary: "{{title}}"
     exclude: "_includes/**/*,_data/**/*,_11ty/**/*,assets/**/*,admin/**/*"
+    include: "membership/index.md,about/index.md,contact/index.md,whats-on/index.md,exhibitions/index.md,learning/index.md"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page.njk"}
       - {label: "Title", name: "title", widget: "string"}
