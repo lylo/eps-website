@@ -1,16 +1,12 @@
 ---
-layout: base.njk
+layout: page.njk
 title: The EPS Digital Archive
 description: Edinburgh Photographic Society - The EPS Digital Archive
 ---
 
-<div class="container mx-auto px-4 py-8">
-  <div class="prose max-w-3xl mx-auto">
-    <h1 class="text-3xl font-bold mb-6">The EPS Digital Archive</h1>
+EPS has decided to create an archive to collect and maintain paper and digital documents and images for the ‘unforeseeable’ future. That is, we don’t know who might be interested in the activities of EPS in 20, 30, 40, … years time so we aim to preserve what we can in the hope that it will be of interest to both current and future members.
 
-    EPS has decided to create an archive to collect and maintain paper and digital documents and images for the ‘unforeseeable’ future. That is, we don’t know who might be interested in the activities of EPS in 20, 30, 40, … years time so we aim to preserve what we can in the hope that it will be of interest to both current and future members.&nbsp;&nbsp;
-
-The first stage of this process – the collection of digital documents and images to create a digital archive is now underway. Our aim is to make this available, on request, to members and others for historical research.&nbsp;
+The first stage of this process – the collection of digital documents and images to create a digital archive is now underway. Our aim is to make this available, on request, to members and others for historical research.
 
 For practical and legal reasons, it is not possible to make our entire digital archive available through our public web site. However, to give members and others an impression of what’s in our archive, we have created this page as a gateway to some of the items that we hold. Some links are not yet active.
 
@@ -49,13 +45,3 @@ Catalogues from international exhibitions.
 [**Members’ Exhibitions**](https://www.dropbox.com/scl/fo/zmr2igne8rev00wh9u1ai/AI2K7dexzQs6WJO-WH5QnaY?rlkey=widlvrt0wkwkvfff2but1oueh&dl=0)
 
 Awards made at our annual Members’ Exhibition.
-
- Copyright 2025 - Edinburgh Photographic society and individual photographers
-
-We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept All”, you consent to the use of ALL the cookies. However, you may visit "Cookie Settings" to provide a controlled consent.
-
-Cookie SettingsAccept All
-
-
-  </div>
-</div>
