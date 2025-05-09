@@ -1,9 +1,8 @@
 ---
 layout: page.njk
 title: About Edinburgh Photographic Society
-description: >-
-  Edinburgh Photographic Society - Find out about our 150+ year history,
-  governance, competitions, and facilities
+description: Edinburgh Photographic Society - Find out about our 150+ year
+  history, governance, competitions, and facilities
 ---
 Edinburgh Photographic Society (EPS) has been active for more than 150 years and, currently, has around 200 members. There are several meetings per week during the season, which runs from September to April, with informal meetings organised during the summer. Our [What's On](/whats-on/) page has details of forthcoming meetings and our season's syllabus.
 
@@ -17,7 +16,7 @@ Edinburgh Photographic Society is a Scottish Charitable Incorporated Organisatio
 
 ## [Governance](/people-and-governance)
 
-How EPS is governed and managed.
+How the society is governed and managed.
 
 ## [Competitions](/competitions/)
 
