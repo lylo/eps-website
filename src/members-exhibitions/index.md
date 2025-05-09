@@ -5,7 +5,7 @@ description: Edinburgh Photographic Society - Members' Exhibitions
 ---
 
 <div class="not-prose max-w-6xl mx-auto">
-  <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mx-auto max-w-7xl mb-12">
+  <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mx-auto max-w-7xl mb-8">
     <div class="photo-card">
       <img src="/assets/images/members/L2-1671_001_1_Bookends-Duncan-Thomson-v2.webp" alt="Photography by Duncan Thomson" class="w-full object-cover">
       <div class="p-2">
