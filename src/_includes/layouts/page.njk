@@ -4,14 +4,9 @@ layout: base.njk
 
 <div class="max-w-4xl mx-auto">
   <article class="container mx-auto px-4 py-8">
-    <header class="mb-8">
-      <h1 class="text-3xl md:text-4xl font-bold mb-4">{{ title }}</h1>
-      {% if date %}
-      <p class="text-gray-600">{{ date | formatDate }}</p>
-      {% endif %}
-    </header>
+    <div class="prose prose-invert:dark dark:prose-invert dark:bg-slate-800 p-6 rounded-lg max-w-none">
+      <h1>{{ title }}</h1>
 
-    <div class="prose max-w-none">
       {{ content | safe }}
     </div>
   </article>

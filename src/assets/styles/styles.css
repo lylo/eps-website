@@ -18,6 +18,8 @@
   --btn-bg: theme('colors.blue.800');
   --btn-hover: theme('colors.blue.600');
   --btn-text: theme('colors.white');
+  --background-color: theme('colors.white');
+  --card-photo-bg: theme('colors.white');
 }
 
 /* Dark mode colors */
@@ -30,36 +32,42 @@
     --card-border: theme('colors.slate.600');
     --card-heading: theme('colors.blue.200');
     --card-text: theme('colors.slate.300');
-    --heading-color: theme('colors.blue.200');
+    --heading-color: theme('colors.gray.100');
     --btn-bg: theme('colors.blue.600');
     --btn-hover: theme('colors.blue.500');
     --btn-text: theme('colors.white');
+    --background-color: theme('colors.slate.900');
+    --card-photo-bg: theme('colors.slate.700');
   }
 }
 
 @layer components {
+  .prose {
+    @apply !bg-white dark:!bg-gray-900;
+  }
+
   .prose table {
     @apply w-full border-collapse;
   }
 
   .prose thead {
-    @apply bg-blue-100 text-blue-800;
+    @apply bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-100;
   }
 
   .prose thead th {
-    @apply text-left border-b border-blue-200;
+    @apply text-left border-b border-blue-200 dark:border-blue-900;
   }
 
   .prose tbody tr:nth-child(odd) {
-    @apply bg-gray-50;
+    @apply bg-gray-50 dark:bg-slate-800;
   }
 
   .prose tbody tr:nth-child(even) {
-    @apply bg-white;
+    @apply bg-white dark:bg-slate-700;
   }
 
   .prose tbody td {
-    @apply text-sm border-b border-gray-200;
+    @apply text-sm border-b border-gray-200 dark:border-slate-600;
   }
 
   /* Optional: Make sure td elements aren't overridden */
@@ -117,6 +125,10 @@
   color: var(--nav-hover);
 }
 
+main {
+  background-color: var(--background-color);
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: var(--heading-color);
 }
@@ -127,24 +139,9 @@ footer {
   }
 }
 
-.photo-grid {
-  @apply grid grid-cols-1 gap-6 px-4 mx-auto max-w-7xl;
-}
-
-@media (min-width: 640px) {
-  .photo-grid {
-    @apply grid-cols-2;
-  }
-}
-
-@media (min-width: 1024px) {
-  .photo-grid {
-    @apply grid-cols-4;
-  }
-}
-
 .photo-card {
   @apply rounded-lg overflow-hidden shadow-md;
+  color: var(--card-text);
   background-color: var(--card-bg);
 }
 
