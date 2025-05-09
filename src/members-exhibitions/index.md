@@ -1,9 +1,8 @@
 ---
+layout: page.njk
 title: Members' Exhibitions
 description: Edinburgh Photographic Society - Members' Exhibitions
 ---
-
-# Members' Exhibitions
 
 Members' Exhibition are opportunities for members to show their work to other members and to a wider audience. We hold two members' exhibitions annually:
 
