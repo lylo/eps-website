@@ -22,9 +22,9 @@ In addition, EPS participates in Scottish national photographic events and in in
 
 [Competition rules and guidelines](/competitions/competition-guidelines) (2024-25)
 
-[PDI competition results](/competitions/competition-results/projected-image-competition-results/) (2024-25)
+[PDI competition results](/competitions/projected-image-competition-results/) (2024-25)
 
-[Print competition results](/competitions/competition-results/print-competition-results/) (2024-25)
+[Print competition results](/competitions/print-competition-results/) (2024-25)
 
 
   </div>
