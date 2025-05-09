@@ -1,19 +1,11 @@
 ---
-layout: base.njk
-title: Contact us
-description: Edinburgh Photographic Society - Contact us
+layout: page.njk
+title: Contact Us
+description: Contact the Edinburgh Photographic Society
 ---
 
-<div class="container mx-auto px-4 py-8">
-  <div class="prose max-w-3xl mx-auto">
-    <h1 class="text-3xl font-bold mb-6">Contact us</h1>
+For membership queries, please [email the membership secretary](mailto:membership@edinburghphotographicsociety.co.uk).
 
-    For membership queries, please contact our membership secretary ([membership@edinburghphotographicsociety.co.uk](mailto:membership@edinburghphotographicsociety.co.uk))
-
-For all other queries, contact our general enquiries address ([enquiries@edinburghphotographicsociety.co.uk](mailto:enquiries@edinburghphotographicsociety.co.uk))
+For all other queries, please [email our general enquiries address](mailto:enquiries@edinburghphotographicsociety.co.uk).
 
 All our members are volunteers and have lives outside their email system. Please be patient if you don’t get an immediate response.
-
-
-  </div>
-</div>
