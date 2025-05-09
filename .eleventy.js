@@ -4,7 +4,7 @@ export default function(eleventyConfig) {
   // Add passthrough copy for assets
   eleventyConfig.addPassthroughCopy("./src/assets/images");
   eleventyConfig.addPassthroughCopy("./src/assets/styles");
-  
+
   // Copy admin folder
   eleventyConfig.addPassthroughCopy({ "./admin": "./admin" });
 
