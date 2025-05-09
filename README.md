@@ -2,6 +2,8 @@
 
 This is a test website for Edinburgh Photographic Society built with [11ty](https://www.11ty.dev/), [Tailwind CSS](https://tailwindcss.com/), and [Decap CMS](https://decapcms.org/).
 
+You can view it at [https://eps-website.netlify.app](https://eps-website.netlify.app).
+
 ## Project Structure
 
 ```
