@@ -1,0 +1,30 @@
+[build]
+  publish = "_site"
+  command = "npm run build"
+
+# Redirect and rewrite rules
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/:splat"
+  status = 200
+
+# Enable Netlify Identity for authentication
+[template.environment]
+  NETLIFY_IDENTITY_ENABLED = "true"
+
+# Optional: Define build plugins
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+
+# Set CMS path
+[dev]
+  publish = "_site"
+
+# Optional: Configure headers for security
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
