@@ -61,6 +61,23 @@ export async function handler() {
       agenda[monthName].push(event);
     }
 
+    // Debugging: Log the structure of the agenda object
+    console.log('Final Agenda Object:', JSON.stringify(agenda, null, 2));
+
+    // Ensure agenda is not empty before rendering
+    if (Object.keys(agenda).length === 0) {
+      console.warn('Agenda is empty. No events to render.');
+      return {
+        statusCode: 200,
+        headers: {
+          'Access-Control-Allow-Origin': '*',
+          'Content-Type': 'text/html',
+        },
+        body: '<p>No events available at this time.</p>',
+      };
+    }
+
+    // Render the agenda HTML
     const agendaHtml = nunjucksEnv.renderString(`
       {% for month in agenda %}
         {% set events = agenda[month] %}
