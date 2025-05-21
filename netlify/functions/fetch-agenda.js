@@ -29,9 +29,20 @@ export async function handler() {
     const rows = csvText.split('\n').map(row => row.split(','));
     rows.shift(); // Remove header row
 
+    // Parse dates in DD/MM/YYYY format
+    rows.forEach(row => {
+      const [date, ...rest] = row;
+      const [day, month, year] = date.split('/').map(Number);
+      row[0] = new Date(year, month - 1, day); // Convert to a valid Date object
+    });
+
+    // Sort rows by the parsed date
+    rows.sort((a, b) => a[0] - b[0]);
+
     const today = new Date();
     const agenda = {};
 
+    // Process sorted rows into agenda structure
     rows.forEach(row => {
       const [date, day, weekNumber, event, details, format] = row;
       const eventDate = new Date(date);
@@ -52,10 +63,11 @@ export async function handler() {
       });
     });
 
+    // Remove redundant sorting logic
     const agendaHtml = nunjucksEnv.renderString(`
-      {% for month, events in agenda %}
-      <div class="month mb-8">
-        <h2 class="text-2xl font-bold mt-6">{{ month }}</h2>
+      {% for month, events in agenda.items() %}
+      <div class="month mb-12">
+        <h2 class="text-2xl font-bold mt-6">{{ month }} {{ events[0].date | date("YYYY") }}</h2>
         {% for event in events %}
         <div class="event flex items-top text-center w-full mb-8">
           <div class="flex flex-col items-center w-16 flex-shrink-0 self-start rounded-lg border border-gray-200 overflow-hidden">

@@ -40,6 +40,17 @@ export default async function generateAgenda() {
     const today = new Date();
     const agenda = {};
 
+    // Parse dates in DD/MM/YYYY format
+    rows.forEach(row => {
+      const [date, ...rest] = row;
+      const [day, month, year] = date.split('/').map(Number);
+      row[0] = new Date(year, month - 1, day); // Convert to a valid Date object
+    });
+
+    // Sort rows by the parsed date
+    rows.sort((a, b) => a[0] - b[0]);
+
+    // Process sorted rows into agenda structure
     rows.forEach(row => {
       const [date, day, weekNumber, event, details, format] = row;
       const eventDate = new Date(date);
