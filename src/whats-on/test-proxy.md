@@ -15,15 +15,23 @@ Forthcoming meetings are shown in the calendar below.
 
 <!-- Agenda will be dynamically fetched using a Netlify function -->
 <div id="agenda" class="mt-8">
+  <div id="agenda-loading" class="text-center text-gray-500">Loading agenda...</div>
   <script>
     async function fetchAgenda() {
-      const response = await fetch('/.netlify/functions/fetch-agenda');
-      if (!response.ok) {
+      const loadingDiv = document.getElementById('agenda-loading');
+      try {
+        const response = await fetch('/.netlify/functions/fetch-agenda');
+        if (!response.ok) {
+          document.getElementById('agenda').innerHTML = '<p class="text-red-500">Failed to load agenda. Please try again later.</p>';
+          return;
+        }
+        const agendaHtml = await response.text();
+        document.getElementById('agenda').innerHTML = agendaHtml;
+      } catch (error) {
         document.getElementById('agenda').innerHTML = '<p class="text-red-500">Failed to load agenda. Please try again later.</p>';
-        return;
+      } finally {
+        if (loadingDiv) loadingDiv.remove();
       }
-      const agendaHtml = await response.text();
-      document.getElementById('agenda').innerHTML = agendaHtml;
     }
     fetchAgenda();
   </script>
