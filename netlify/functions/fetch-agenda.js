@@ -1,5 +1,3 @@
-import fetch from 'node-fetch';
-
 export async function handler() {
   const csvUrl = 'https://docs.google.com/spreadsheets/d/1fcTrcBVpO7xIfpzuX65_lzsMeD1SHmKPZAKzidOnLcw/export?format=csv&gid=644213694';
 
