@@ -62,7 +62,8 @@ export async function handler() {
     }
 
     const agendaHtml = nunjucksEnv.renderString(`
-      {% for month, events in agenda.items() %}
+      {% for month in agenda %}
+        {% set events = agenda[month] %}
         <div class="month mb-12">
           <h2 class="text-2xl font-bold mt-6">{{ month }} {{ events[0].date | date("yyyy") }}</h2>
           {% for event in events %}
