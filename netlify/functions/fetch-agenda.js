@@ -29,25 +29,35 @@ export async function handler() {
     const rows = csvText.split('\n').map(row => row.split(','));
     rows.shift(); // Remove header row
 
-    // Parse dates in DD/MM/YYYY format
-    rows.forEach(row => {
+    // Parse dates in DD/MM/YYYY format with strict validation
+    rows.forEach((row, index) => {
       const [date, ...rest] = row;
-      const [day, month, year] = date.split('/').map(Number);
-      row[0] = new Date(year, month - 1, day); // Convert to a valid Date object
+      const parsedDate = DateTime.fromFormat(date, 'dd/MM/yyyy', { zone: 'utc', setZone: true });
+
+      if (!parsedDate.isValid) {
+        console.error(`Invalid date at row ${index + 1}:`, row);
+        row[0] = null; // Mark invalid dates as null
+        return;
+      }
+
+      row[0] = parsedDate.toJSDate(); // Convert to a valid Date object
     });
 
-    // Sort rows by the parsed date
-    rows.sort((a, b) => a[0] - b[0]);
-
+    // Filter out rows with invalid or past dates
     const today = new Date();
+    const validRows = rows.filter(row => row[0] && row[0] >= today);
+
+    // Sort rows by the parsed date
+    validRows.sort((a, b) => a[0] - b[0]);
+
+    console.log('Valid and Sorted Rows:', validRows.map(row => row[0]));
+
     const agenda = {};
 
     // Process sorted rows into agenda structure
-    rows.forEach(row => {
+    validRows.forEach(row => {
       const [date, day, weekNumber, event, details, format] = row;
       const eventDate = new Date(date);
-
-      if (isNaN(eventDate) || eventDate < today) return; // Skip invalid or past dates
 
       const monthName = eventDate.toLocaleString('default', { month: 'long' });
 
@@ -63,7 +73,8 @@ export async function handler() {
       });
     });
 
-    // Remove redundant sorting logic
+    console.log('Agenda:', agenda);
+
     const agendaHtml = nunjucksEnv.renderString(`
       {% for month, events in agenda.items() %}
       <div class="month mb-12">
