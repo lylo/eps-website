@@ -88,7 +88,7 @@ export async function handler() {
 
     // Render the agenda HTML
     const agendaHtml = nunjucksEnv.renderString(`
-      {% for month, events in agenda.items() %}
+      {% for month, events in agenda %}
         <div class="month mb-12">
           <h2 class="text-2xl font-bold mt-6">{{ month }} {{ events[0].date | date("yyyy") }}</h2>
           {% for event in events %}
@@ -108,7 +108,7 @@ export async function handler() {
           {% endfor %}
         </div>
       {% endfor %}
-    `, { agenda: Object.entries(agenda) });
+    `, { agenda });
 
     return {
       statusCode: 200,
