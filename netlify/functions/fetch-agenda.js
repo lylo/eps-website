@@ -31,7 +31,8 @@ export async function handler() {
 
     const csvText = await response.text();
     const lines = csvText.split('\n').map(line => line.split(',').map(cell => cell.trim()));
-    const dataRows = lines.filter(row => row.length >= 4 && row[0] !== 'Date' && isNaN(row[0]) === false);
+    // Adjust filtering logic to ensure valid rows are processed
+    const dataRows = lines.filter(row => row.length >= 4 && row[0] !== 'Date');
 
     const today = DateTime.now();
     const events = [];
@@ -40,7 +41,11 @@ export async function handler() {
       const [rawDate, , , event, details, format] = row;
       const parsedDate = parseDate(rawDate);
 
-      if (!parsedDate || parsedDate < today) continue;
+      // Ensure parsedDate is valid and not in the past
+      if (!parsedDate || parsedDate < today) {
+        console.warn(`Skipping invalid or past event: ${row}`);
+        continue;
+      }
 
       events.push({
         date: parsedDate.toJSDate(),
@@ -51,7 +56,11 @@ export async function handler() {
     }
 
     // Sort by date
-    events.sort((a, b) => a.date - b.date);
+    if (events.length === 0) {
+      console.warn('No valid events found after filtering.');
+    } else {
+      console.log('Valid events:', events);
+    }
 
     // Group by month name
     const agenda = {};
@@ -79,8 +88,7 @@ export async function handler() {
 
     // Render the agenda HTML
     const agendaHtml = nunjucksEnv.renderString(`
-      {% for month in agenda %}
-        {% set events = agenda[month] %}
+      {% for month, events in agenda.items() %}
         <div class="month mb-12">
           <h2 class="text-2xl font-bold mt-6">{{ month }} {{ events[0].date | date("yyyy") }}</h2>
           {% for event in events %}
@@ -100,7 +108,7 @@ export async function handler() {
           {% endfor %}
         </div>
       {% endfor %}
-    `, { agenda });
+    `, { agenda: Object.entries(agenda) });
 
     return {
       statusCode: 200,
