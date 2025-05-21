@@ -3,21 +3,25 @@ import { DateTime } from 'luxon';
 
 const csvUrl = 'https://docs.google.com/spreadsheets/d/1fcTrcBVpO7xIfpzuX65_lzsMeD1SHmKPZAKzidOnLcw/export?format=csv&gid=644213694';
 
-// Configure Nunjucks environment
+// Configure Nunjucks
 const nunjucksEnv = new nunjucks.Environment();
+nunjucksEnv.addFilter('date', (date, format) => DateTime.fromJSDate(date).toFormat(format));
+nunjucksEnv.addFilter('upper', str => str.toUpperCase());
 
-// Add custom filters
-nunjucksEnv.addFilter('date', (date, format) => {
-  return DateTime.fromJSDate(date).toFormat(format);
-});
-nunjucksEnv.addFilter('upper', (str) => {
-  return str.toUpperCase();
-});
+// Attempt to parse the date, cleaning up known messy formats
+function parseDate(raw) {
+  if (!raw) return null;
+
+  // Remove bracketed notes and ranges
+  let cleaned = raw.split(' ')[0].split('-')[0].trim();
+
+  const parsed = DateTime.fromFormat(cleaned, 'd/M/yyyy', { zone: 'utc' });
+  return parsed.isValid ? parsed : null;
+}
 
 export async function handler() {
   try {
     const response = await fetch(csvUrl);
-
     if (!response.ok) {
       return {
         statusCode: response.status,
@@ -26,82 +30,57 @@ export async function handler() {
     }
 
     const csvText = await response.text();
-    const rows = csvText.split('\n').map(row => row.split(','));
-    rows.shift(); // Remove header row
+    const lines = csvText.split('\n').map(line => line.split(',').map(cell => cell.trim()));
+    const dataRows = lines.filter(row => row.length >= 4 && row[0] !== 'Date' && isNaN(row[0]) === false);
 
-    // Parse dates in DD/MM/YYYY format with strict validation
-    rows.forEach((row, index) => {
-      // Skip empty rows or rows with only whitespace
-      if (row.every(cell => !cell.trim())) {
-        console.warn(`Skipping empty row at index ${index + 1}`);
-        return;
-      }
+    const today = DateTime.now();
+    const events = [];
 
-      const [date, ...rest] = row;
+    for (const row of dataRows) {
+      const [rawDate, , , event, details, format] = row;
+      const parsedDate = parseDate(rawDate);
 
-      // Skip rows where the first column is not a valid date
-      const parsedDate = DateTime.fromFormat(date, 'dd/MM/yyyy', { zone: 'utc', setZone: true });
-      if (!parsedDate.isValid) {
-        console.error(`Invalid date at row ${index + 1}:`, row);
-        row[0] = null; // Mark invalid dates as null
-        return;
-      }
+      if (!parsedDate || parsedDate < today) continue;
 
-      row[0] = parsedDate.toJSDate(); // Convert to a valid Date object
-    });
-
-    // Filter out rows with invalid or past dates
-    const today = new Date();
-    const validRows = rows.filter(row => row[0] && row[0] >= today);
-
-    // Sort rows by the parsed date
-    validRows.sort((a, b) => a[0] - b[0]);
-
-    console.log('Valid and Sorted Rows:', validRows.map(row => row[0]));
-
-    const agenda = {};
-
-    // Process sorted rows into agenda structure
-    validRows.forEach(row => {
-      const [date, day, weekNumber, event, details, format] = row;
-      const eventDate = new Date(date);
-
-      const monthName = eventDate.toLocaleString('default', { month: 'long' });
-
-      if (!agenda[monthName]) {
-        agenda[monthName] = [];
-      }
-
-      agenda[monthName].push({
-        date: eventDate,
+      events.push({
+        date: parsedDate.toJSDate(),
         name: event,
         details,
         format,
       });
-    });
+    }
 
-    console.log('Agenda:', agenda);
+    // Sort by date
+    events.sort((a, b) => a.date - b.date);
+
+    // Group by month name
+    const agenda = {};
+    for (const event of events) {
+      const monthName = DateTime.fromJSDate(event.date).toFormat('LLLL');
+      if (!agenda[monthName]) agenda[monthName] = [];
+      agenda[monthName].push(event);
+    }
 
     const agendaHtml = nunjucksEnv.renderString(`
       {% for month, events in agenda.items() %}
-      <div class="month mb-12">
-        <h2 class="text-2xl font-bold mt-6">{{ month }} {{ events[0].date | date("YYYY") }}</h2>
-        {% for event in events %}
-        <div class="event flex items-top text-center w-full mb-8">
-          <div class="flex flex-col items-center w-16 flex-shrink-0 self-start rounded-lg border border-gray-200 overflow-hidden">
-            <div class="w-full text-white bg-red-500 font-bold text-sm py-0.5">{{ event.date | date("MMM") | upper }}</div>
-            <div class="w-full bg-white text-black text-xl py-1">{{ event.date | date("d") }}</div>
-          </div>
-          <div class="ml-4 text-start">
-            <div class="text-lg font-semibold">{{ event.name }}</div>
-            <div class="text-sm text-gray-600">{{ event.details }}</div>
-            <div class="text-sm text-gray-500 mt-2">
-              {% if event.format and event.format.trim() != "" %}📌 {{ event.format }}{% endif %}
+        <div class="month mb-12">
+          <h2 class="text-2xl font-bold mt-6">{{ month }} {{ events[0].date | date("yyyy") }}</h2>
+          {% for event in events %}
+            <div class="event flex items-top text-center w-full mb-8">
+              <div class="flex flex-col items-center w-16 flex-shrink-0 self-start rounded-lg border border-gray-200 overflow-hidden">
+                <div class="w-full text-white bg-red-500 font-bold text-sm py-0.5">{{ event.date | date("MMM") | upper }}</div>
+                <div class="w-full bg-white text-black text-xl py-1">{{ event.date | date("d") }}</div>
+              </div>
+              <div class="ml-4 text-start">
+                <div class="text-lg font-semibold">{{ event.name }}</div>
+                <div class="text-sm text-gray-600">{{ event.details }}</div>
+                {% if event.format %}
+                  <div class="text-sm text-gray-500 mt-2">📌 {{ event.format }}</div>
+                {% endif %}
+              </div>
             </div>
-          </div>
+          {% endfor %}
         </div>
-        {% endfor %}
-      </div>
       {% endfor %}
     `, { agenda });
 
@@ -109,13 +88,14 @@ export async function handler() {
       statusCode: 200,
       headers: {
         'Access-Control-Allow-Origin': '*',
+        'Content-Type': 'text/html',
       },
       body: agendaHtml,
     };
   } catch (error) {
     return {
       statusCode: 500,
-      body: `Error fetching agenda: ${error.message}`,
+      body: `Error generating agenda: ${error.message}`,
     };
   }
 }
