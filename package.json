@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "npm-run-all clean build:html build:css ",
+    "build": "node src/_11ty/agenda-generator.js && npm-run-all clean build:html build:css ",
     "build:css": "npx @tailwindcss/cli -i ./src/assets/styles/styles.css -o ./_site/assets/styles/styles.css",
     "build:html": "ELEVENTY_ENV=production npx eleventy",
     "clean": "rm -rf _site",
