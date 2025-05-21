@@ -1,4 +1,3 @@
-import fetch from 'node-fetch';
 import nunjucks from 'nunjucks';
 import { DateTime } from 'luxon';
 
