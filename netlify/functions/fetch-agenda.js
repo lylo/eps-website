@@ -31,9 +31,16 @@ export async function handler() {
 
     // Parse dates in DD/MM/YYYY format with strict validation
     rows.forEach((row, index) => {
-      const [date, ...rest] = row;
-      const parsedDate = DateTime.fromFormat(date, 'dd/MM/yyyy', { zone: 'utc', setZone: true });
+      // Skip empty rows or rows with only whitespace
+      if (row.every(cell => !cell.trim())) {
+        console.warn(`Skipping empty row at index ${index + 1}`);
+        return;
+      }
 
+      const [date, ...rest] = row;
+
+      // Skip rows where the first column is not a valid date
+      const parsedDate = DateTime.fromFormat(date, 'dd/MM/yyyy', { zone: 'utc', setZone: true });
       if (!parsedDate.isValid) {
         console.error(`Invalid date at row ${index + 1}:`, row);
         row[0] = null; // Mark invalid dates as null
