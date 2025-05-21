@@ -1,6 +1,6 @@
 [build]
+  command = "node src/_11ty/agenda-generator.js && eleventy"
   publish = "_site"
-  command = "npm run build"
 
 # Redirect and rewrite rules
 [[redirects]]
