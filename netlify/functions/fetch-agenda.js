@@ -1,6 +1,6 @@
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 
-exports.handler = async function () {
+export async function handler() {
   const csvUrl = 'https://docs.google.com/spreadsheets/d/1fcTrcBVpO7xIfpzuX65_lzsMeD1SHmKPZAKzidOnLcw/export?format=csv&gid=644213694';
 
   try {
@@ -16,6 +16,9 @@ exports.handler = async function () {
     // Here you can process the CSV and convert it to HTML if needed
     return {
       statusCode: 200,
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+      },
       body: csvText,
     };
   } catch (error) {
@@ -24,4 +27,4 @@ exports.handler = async function () {
       body: `Error fetching agenda: ${error.message}`,
     };
   }
-};
+}
