@@ -22,7 +22,7 @@ If you are interested, you may come to any of our Wednesday meetings, listen to 
 
 ### Fees
 
-Annual membership fees for the 2025/26 session are £115 for Ordinary (Edinburgh) members, £85 for a spouse or partner and £85 for Country members who live more than 25 miles from our premises in Edinburgh. Students and under-25s are £30 and Junior members (under 18) are £10. There is an additional fee of £105 for use of the studio. We also offer life membership for a fee of £1150.
+Annual membership fees for the 2025/26 session are £115 for Ordinary (Edinburgh) members, £85 for a spouse or partner and £85 for Country members who live more than 25 miles from our premises in Edinburgh. Students and under-25s are £30 and Junior members (under 18) are £10. There is an additional fee of £105 for use of the studio. We also offer life membership for a fee of £1150, subject to Council approval.
 
 | Membership type                                                        | 2025–26  |
 | ---------------------------------------------------------------------- | -------- |
